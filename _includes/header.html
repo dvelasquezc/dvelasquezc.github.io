@@ -1,0 +1,39 @@
+
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		
+		<div id="menu">
+					<span>
+						<a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" {% if "/"  == page.url %} class="active" {% endif %}>Home</a>
+					</span>
+			{% assign sorted_pages = site.pages | sort:"order" %}
+			{% for pp in sorted_pages %}
+				{% if pp.order > 0 %}
+				    <span {% if pp.dropdown_folder != 'no' %} class="dropbtn" {% endif %}>
+						<a href="{{ pp.url | prepend: site.baseurl | prepend: site.url }}" {% if page.url==pp.url %} class="active" {% elsif page.url contains pp.url %} class="active" {% endif %}> {{ pp.title }}</a>
+					</span>
+					
+					{% if pp.dropdown_folder != 'no' %} <!--drop down menu -->
+						<div class = "dropdown-content"> 
+							{% assign foldername = pp.dropdown_folder %}
+							{% assign sorted_pages2 = site.[pp.dropdown_folder] | sort:"order" %}
+							{% for pp2 in sorted_pages2 %}
+								<div>
+									<a href="{{ pp2.url | prepend: site.baseurl | prepend: site.url }}"> {{ pp2.title }}</a>
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+					
+				{% endif %}
+			{% endfor %}
+		</div>
+
+	</body>
+
+

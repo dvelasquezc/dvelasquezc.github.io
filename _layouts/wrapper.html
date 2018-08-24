@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="backgroundcolor" >
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "descrition" content ="My personal website.">
+		<meta name = "author" content ="Daniel Velásquez Cabrera">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<title>{{ site.title }}</title> <!-- site comes from config.yml -->
+		<link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}"/>
+	</head>
+	
+	<body>
+	
+		<div class="webhead">
+			{% include header.html %}
+		</div>
+		
+		<div class="webcontent">
+			{{ content }}
+		</div>
+		
+		<div class="webfooter">
+			{% include footer.html %}
+		</div>
+	</body>
+
+
+</html>
+
+

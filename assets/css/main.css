@@ -1,0 +1,199 @@
+
+
+
+
+
+/* -------------------------     General   ------------------------*/
+.backgroundcolor {
+	 background-color: #f2f2f2
+}
+
+/* -------------------------  Header   ------------------------*/
+
+.webhead {
+	margin: auto;
+	width: 62%;
+	padding: 20px;
+}
+
+/*  Head Menu  */
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #8c8c8c; /*#737373; #333*/ 
+	box-shadow: 2px 2px 2px #4d4d4d;
+	
+}
+
+
+#menu  a {
+	position: relative;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center; 
+	text-decoration: none; 
+	padding: 3px 10px 3px 10px;
+	font-weight: bold;
+	font-family: 'Palatino', Verdana, serif;
+}
+
+#menu a.active  {
+    color: #800000 /*#800000;*/
+	}
+
+#menu  a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+
+#menu a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(0.85);
+	transform: scaleX(0.85);
+}
+
+/*----  Dropdown Menu  -----*/
+
+.dropbtn {
+    position: relative;
+    display: inline-block;
+}
+
+#menu .dropdown-content { /* (Hidden by Default) */
+    display: none;
+    position: absolute;
+    background-color: #737373;
+    min-width: 140px;
+    box-shadow: 2px 2px 2px grey;
+    z-index: 1;
+	text-align: left;
+	opacity: 0.90;
+	margin: 0px 0px 0px 80px;
+}
+
+#menu .dropdown-content a { /* Links inside the dropdown */
+    text-decoration: none;
+	text-align: left;
+	font-size: 0.8em
+}
+
+#menu .dropbtn:hover + .dropdown-content, #menu .dropdown-content:hover { /* Show the dropdown menu on hover */
+    display: block;
+}
+
+
+
+
+/*-----------------------    Content   ------------------------*/
+
+.page-header {
+	font-family: 'Palatino', Verdana, serif;
+	font-size: 1.35em
+}
+
+.webcontent {
+	margin: auto;
+	width: 60%;
+	padding: 20px;
+	background-color: #ffffff;
+	border-color: #d9d9d9;
+	box-shadow: 2px 2px 2px grey;
+	color: #262626;
+	font-family: 'Palatino', Verdana, serif;
+	
+}
+
+.webcontent a {
+	color: #0047b3;
+	text-decoration: none;
+}
+
+@keyframes change_color {
+	from {color: #0047b3}
+	to {color: #800000}
+}
+
+.webcontent a:hover {
+	animation-name: change_color;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;  
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.phdapplication_box {
+
+}
+
+#profile {
+	float:left;
+	display: inline;
+	width: 40%;
+	padding: 0px 10px 5px 1px
+}
+
+
+/*-------------------- Social buttons -----------------------*/
+
+.socialbuttons {
+  margin: 0 auto 0 auto;
+  
+}
+
+.socialbuttons ul {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.socialbuttons ul li {
+  display: inline; 
+}
+
+.socialbuttons ul li a {
+  text-decoration: none;
+  
+}
+
+.socialbuttons ul li svg {
+  width: 30px;
+  height: 30px;
+  
+}
+
+.socialbuttons .twitter svg {
+  fill: #1DA1F2;
+}
+
+.socialbuttons .gmail svg {
+  fill: #ff3f0f;
+}
+
+.socialbuttons .github svg {
+  fill: #6cc644;
+}
+
+#footer {
+	/*margin: auto;
+	background-color: #cccccc;
+	width: 55%;
+	padding: 10px 0px 10px 0px;
+	box-shadow: 2px 2px 2px #4d4d4d;
+	font-family: 'Palatino', Verdana, serif;
+	color: #ffffff;*/
+}
