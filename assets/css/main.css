@@ -12,7 +12,7 @@
 
 .webhead {
 	margin: auto;
-	width: 75%;
+	width: 62%;
 	padding: 20px;
 }
 
@@ -106,8 +106,8 @@
 
 .webcontent {
 	margin: auto;
-	width: 75%;
-	padding: 20px;
+	width: 60%;
+	padding: 10px;
 	background-color: #ffffff;
 	border-color: #d9d9d9;
 	box-shadow: 2px 2px 2px grey;
