@@ -10,8 +10,7 @@
 		{% seo %}
 	</head>
 	
-	<body>
-	
+	<div class = "desktop">	
 		<div class="webhead">
 			{% include header.html %}
 		</div>
@@ -23,7 +22,35 @@
 		<div class="webfooter">
 			{% include footer.html %}
 		</div>
-	</body>
+	</div>
+	
+	<div class= "mobile_device_380px">
+		<div class="webhead">
+			{% include header.html %}
+		</div>
+		
+		<div class="webcontent">
+			{{ content }}
+		</div>
+		
+		<div class="webfooter">
+			{% include footer.html %}
+		</div>
+	</div>
+	
+	<div class= "mobile_device_480px">
+		<div class="webhead">
+			{% include header.html %}
+		</div>
+		
+		<div class="webcontent">
+			{{ content }}
+		</div>
+		
+		<div class="webfooter">
+			{% include footer.html %}
+		</div>
+	</div>
 
 
 </html>
