@@ -107,7 +107,7 @@
 .webcontent {
 	margin: auto;
 	width: 60%;
-	padding: 20px;
+	padding: 10px;
 	background-color: #ffffff;
 	border-color: #d9d9d9;
 	box-shadow: 2px 2px 2px grey;
@@ -197,6 +197,7 @@ table, th, td {
 	font-family: 'Palatino', Verdana, serif;
 	color: #ffffff;*/
 }
+<<<<<<< HEAD
 
 /* mobile device */
 
@@ -255,3 +256,5 @@ table, th, td {
 	padding: 5px;
     }
 }
+=======
+>>>>>>> 430b6b2816ba2b37e18fe3a44bb10bc3af560fd1
