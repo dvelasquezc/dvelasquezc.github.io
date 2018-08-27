@@ -14,9 +14,6 @@ dropdown_folder: "no"
 
 <div>
 
-	<span id="profile"><img width="100%" src="/assets/images/profile.jpg" alt="Daniel Velásquez Cabrera"></span>
-
-
 	<span> <p>I am a Research Assistant at Universidad del Pacífico, and I am currently working for <a href="https://scholar.google.com.pe/citations?user=qV3OqlUAAAAJ&hl=es&oi=ao">Gustavo Yamada</a>. 
 	I have completed a M.Sc in Economics at Universidad del Pacifico (where I ranked 1st place out of the thirteen master programs) and I will be applying for a PhD program in Economics by the end of 2018.</p> </span>
 
@@ -32,3 +29,6 @@ dropdown_folder: "no"
 
 </div>
 </article>
+
+
+[//]: #  /*<span id="profile"><img width="100%" src="/assets/images/profile.jpg" alt="Daniel Velásquez Cabrera"></span> */
