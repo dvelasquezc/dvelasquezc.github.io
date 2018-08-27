@@ -19,8 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   I'm Daniel Velásquez Cabrera, Research Assistant at Universidad del Pacífico. I'm applying for a PhD in Economics by the end of this year. This is my personal website. 
 baseurl: "" 
 url: "" 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: DanielVC1992
+github_username:  dvelasquezc
+author: Daniel Velásquez Cabrera
 
 # Build settings
 markdown: kramdown
