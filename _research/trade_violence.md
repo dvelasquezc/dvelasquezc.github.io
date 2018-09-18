@@ -1,5 +1,5 @@
 ---
-title: Trade Liberalization and Domestic Violence
+title: Foreign Policy Can Kill Us: The Effect of Trade Liberalization on Domestic Violence
 coauthors: Alberto Chong
 pubstatus: mimeo
 presented: "no"
