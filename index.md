@@ -12,8 +12,15 @@ dropdown_folder: "no"
 	<h1>Daniel Velásquez Cabrera</h1>	
 </header>
 
+<hr>
+
 <div>
 
+	<div class="img_profile">	
+		<div> 
+			<p><img src="/assets/images/profile4.jpg" alt="Daniel Velásquez Cabrera"></p>
+		</div> 
+	
 	<span> <p>I am a Research Assistant at Universidad del Pacífico, and I am currently working for <a href="https://scholar.google.com.pe/citations?user=qV3OqlUAAAAJ&hl=es&oi=ao">Gustavo Yamada</a>. 
 	I have completed a M.Sc in Economics at Universidad del Pacifico (where I ranked 1st place out of the thirteen master programs) and I will be applying for a PhD program in Economics by the end of 2018.</p> </span>
 
@@ -25,7 +32,8 @@ dropdown_folder: "no"
 	<p>Previously, I was a Research Assistant at <a href="http://www.grade.org.pe/en/">GRADE</a> (Group for the Analysis of Development) where I worked for <a href="http://www.grade.org.pe/en/investigadores/personal/jvaldivi/">Martín Valdivia.</a></p>
 	
 	<p> Aside from academics, I enjoy reading literature (from classics as William Shakespeare to more contemporaneous authors as Milan Kundera) and playing drums.</p>
-
+	
+	</div>
 
 </div>
 </article>

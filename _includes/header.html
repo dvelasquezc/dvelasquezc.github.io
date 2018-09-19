@@ -3,13 +3,18 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Cool Font for Menu-->
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Headland+One" rel="stylesheet">
+
+
 	</head>
 	
 	<body>
 		
 		<div id="menu">
-					<span>
-						<a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" {% if "/"  == page.url %} class="active" {% endif %}>Home</a>
+					<span id="name">
+						<a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" {% if "/"  == page.url %} class="active" {% endif %}>Daniel Velásquez Cabrera        </a>
 					</span>
 			{% assign sorted_pages = site.pages | sort:"order" %}
 			{% for pp in sorted_pages %}
