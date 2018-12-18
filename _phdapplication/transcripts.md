@@ -3,9 +3,18 @@ layout: page
 title: "Transcripts"
 permalink: "/application/transcripts/"
 order: 2
+hide: 0
 ---
 
-Some important notes to understand Peruvian universities' grading scale.
+<b><u>Transcripts</u></b>
+<ul>
+	<li> <a href="{{ "/assets/pdfs/master_grades_english_spanish.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Master's transcript] </a></li>
+	<br />
+	<li> <a href="{{ "/assets/pdfs/undergraduate_grades_english_spanish.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Undergraduate's transcript] </a></li><br />
+	<li> <a href="{{ "/assets/pdfs/grades_maastricht.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Exchange program's grades] </a></li>
+</ul>
+
+<b><u>Some important notes to understand Peruvian universities' grading scale.</u></b>
 
 <ul>
 	<li>There are no perfect scores at Peruvian universities (i.e. 20/20). For instance, my graduate GPA (18.25) is the third highest ever recorded at M.Sc. in Economics at Universidad del Pacifico since founded in 2006.</li><br />
@@ -55,6 +64,7 @@ Some important notes to understand Peruvian universities' grading scale.
 		</table>
 		</div>
 		<br />
-		This also applies for graduate studies at Universidad del Pacifico.
-
+	<li>This also applies for graduate studies at Universidad del Pacifico.</li><br />
 </ul>
+
+

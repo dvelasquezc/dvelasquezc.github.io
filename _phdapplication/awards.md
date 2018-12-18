@@ -3,13 +3,14 @@ layout: page
 title: "Awards, Fellowships and More"
 permalink: "/application/awards/"
 order: 1
+hide: 0
 ---
 
 <div>
 	<h3>Awards and Honors </h3>
 	<ul>
 		<li><u>Robert Maes Award 2017</u></li>
-			Award given to the first place of academic achievement among the graduating class of <b>all thirteen master programs </b> offered by Universidad del Pacífico. <br />
+			Award given to the first place of academic achievement among the graduating class of <b>all thirteen master programs </b> offered by Universidad del Pacífico (US$ 1000). <br />
 		<br />
 		<li>Third Highest GPA ever recorded (18.25/20) since the program’s foundation in 2006, M.Sc. in Economics, Universidad del Pacífico. </li> <br />
 		<li>First Place of academic achievement of the 2017 graduating class (8 students) 2017 M.Sc. in Economics, Universidad del Pacífico. </li> <br />
@@ -35,10 +36,10 @@ order: 1
 <div>
 	<h3> Conferences (Presenter) </h3>
 	<ul>
-		<li> Scheduled: Annual Meeting of the LACEA-LAMES, Ecuador, 2018 </li>
-		<li> Scheduled: 13th Meeting of the Urban Economics Association, USA, 2018 (Jorge de la Roca is going to present the paper.) </li>
-		<li> 5th Congress of the Peruvian Economic Association, Peru, 2018 </li>
+		<li> Annual Meeting of the LACEA-LAMES, Guayaquil, 2018 </li>
+		<li> 13th Meeting of the Urban Economics Association, New York 2018 (Jorge de la Roca presented the paper.) </li>
+		<li> 5th Congress of the Peruvian Economic Association, Lima, 2018 </li>
 		<li> SMU Conference on Urban and Regional Economics, Singapore, 2017 </li>
-		<li> 4th Congress of the Peruvian Economic Association, Peru, 2017 </li>
+		<li> 4th Congress of the Peruvian Economic Association, Lima, 2017 </li>
 	</ul>
 </div>

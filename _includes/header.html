@@ -28,9 +28,11 @@
 							{% assign foldername = pp.dropdown_folder %}
 							{% assign sorted_pages2 = site.[pp.dropdown_folder] | sort:"order" %}
 							{% for pp2 in sorted_pages2 %}
+								{% if pp2.hide != 1 %}
 								<div>
 									<a href="{{ pp2.url | prepend: site.baseurl | prepend: site.url }}"> {{ pp2.title }}</a>
 								</div>
+								{% endif %}
 							{% endfor %}
 						</div>
 					{% endif %}

@@ -145,8 +145,6 @@
 	color: #262626;
 	font-family: 'Vollkorn', serif;
 	font-size: 1.2em
-
-
 }
 
 .webcontent a {
@@ -164,6 +162,10 @@
 	animation-duration: 0.5s;
 	animation-fill-mode: forwards;  
 
+}
+
+.text p {
+	  text-align: justify;
 }
 
 table, th, td {

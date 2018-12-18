@@ -3,6 +3,7 @@ layout: page
 title: "Relevant Coursework"
 permalink: "/application/coursework/"
 order: 3
+hide: 0
 ---
 
 <p>This file contains a complete list of the relevant coursework for Ph.D. in Economics studies, and a detail description of the most advanced ones. Courses are classified in two groups:</p>
