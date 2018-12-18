@@ -512,7 +512,7 @@ table, th, td {
 
 .webcontent {
 	margin: auto;
-	width: 70%;
+	width: 100%;
 	padding: 20px;
 	background-color: #ffffff;
 	border-color: #d9d9d9;
@@ -567,10 +567,28 @@ table, th, td {
 /*--- Img profile ---*/
 .img_profile {
 
-	display: none;
+	display: inline-block; 
 
 }
 
+.img_profile > div {
+	float: left;
+	text-align: center;
+    padding: 0em 1em 0em 0em;
+}
+
+.img_profile img {
+	box-sizing: border-box;
+	width: 300px;
+	height: auto;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	box-shadow: 1px 1px 1px grey;
+	border-color: #d9d9d9;
+	border-width:1px;
+	border-style:solid;
+	display: none;
+}
 
 
 /*-- img left --*/
