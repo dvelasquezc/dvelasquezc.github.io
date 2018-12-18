@@ -380,7 +380,7 @@ table, th, td {
 
 /* -------------------------     General   ------------------------*/
 .backgroundcolor {
-	 background-color: #f2f2f2
+	 background-color: #ffffff
 }
 
 /* -------------------------  Header   ------------------------*/
@@ -579,7 +579,7 @@ table, th, td {
 
 .img_profile img {
 	box-sizing: border-box;
-	width: 300px;
+	width: 100%;
 	height: auto;
 	margin: auto;
 	padding: 0px 0px 0px 0px;
