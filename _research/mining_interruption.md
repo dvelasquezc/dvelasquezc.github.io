@@ -13,4 +13,4 @@ layout: page
 <p><b>Presented in</b>: {{ page.presented }} </p>
 {% endif %}
 
-<p><b>Abstract</b>: {{ page.abstract }} </p>
+<div class ="text"><p><b>Abstract</b>: {{ page.abstract }} </p></div>

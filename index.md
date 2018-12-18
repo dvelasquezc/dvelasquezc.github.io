@@ -35,7 +35,7 @@ dropdown_folder: "no"
 	<span class="text"> <p> I am currently working with <a href="https://scholar.google.com.pe/citations?user=qV3OqlUAAAAJ&hl=es&oi=ao">Gustavo Yamada</a> at Universidad del Pacifico. Feel free to check out our <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">work</a>. 
 	I am also coauthoring an interesting project about <a href="{{ "/research/trade_violence.html" | prepend: site.baseurl | prepend: site.url }}">trade liberalization and domestic violence</a> with <a href ="https://www.poverty-action.org/people/alberto-chong">Alberto Chong</a>.
 	Previously, I was a research assistant at <a href="http://www.grade.org.pe/en/">GRADE</a> (Group for the Analysis of Development) where I assisted 
-	<a href="http://www.grade.org.pe/en/investigadores/personal/jvaldivi/">Martín Valdivia</a> in two RCTs.</p></span>
+	<a href="http://www.grade.org.pe/en/investigadores/personal/jvaldivi/">Martín Valdivia</a> mainly in two RCTs.</p></span>
 	
 	<span class="text"><p> Aside from academics, I enjoy reading literature (from classics as William Shakespeare to more contemporaneous authors as Milan Kundera) and playing drums.</p></span>
 	
