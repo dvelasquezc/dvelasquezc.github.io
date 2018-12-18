@@ -64,3 +64,9 @@ dropdown_folder: "no"
 			
 	{% endfor %}
 </div>
+
+<h2> Other Research Efforts </h2>
+
+<div>
+   <p> With other <a href="https://github.com/orgs/PeruData/people">prospective PhD students</a>, we are building an <a href="https://github.com/PeruData"> online repository</a> of Peruvian data. Our idea is to reduce the costs of researching about Peru by providing a public good useful for other researchers. We will progressively be uploading more files and codes.</p>
+</div>
