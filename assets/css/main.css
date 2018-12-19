@@ -1,6 +1,4 @@
 
-
-
 /* --------------------------------------------------------------------------- DESKTOP VIEW ----------------------------------------------------------*/
 @media screen and (max-width: 9999px){
 	
@@ -35,33 +33,18 @@
 }
 
 #menu #name a {
+	position: relative;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center; 
+	text-decoration: none; 
 	padding: 5px 50px 3px 10px;
+	font-weight: bold;
+	font-family: 'Headland One', serif;
 	font-size: 1.30em;
 }
 
-#menu #name a:before {
-	content: "";
-	position: absolute;
-	margin: 0px 0px 0px -20px;
-	width: 100%;
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #f2f2f2;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-}
-
-#menu #name a:hover:before {
-	visibility: visible;
-	-webkit-transform: scaleX(0.85);
-	transform: scaleX(0.85);
-}
-
-#menu  a {
+#menu .mylink a {
 	position: relative;
 	display: inline-block;
 	color: #f2f2f2;
@@ -73,11 +56,23 @@
 	font-size: 1.10em;
 }
 
-#menu a.active  {
-    color: #800000 /*#800000;*/
-	}
+#menu #name a:before {
+	content: "";
+	position: absolute;
+    margin: 0px 0px 0px -20px;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
 
-#menu  a:before {
+#menu .mylink a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -93,10 +88,30 @@
 }
 
 
-#menu a:hover:before {
+#menu #name a:hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(0.85);
 	transform: scaleX(0.85);
+}
+
+#menu .mylink a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(0.85);
+	transform: scaleX(0.85);
+}
+
+#menu #name a.active  {
+    color: #800000 /*#800000;*/
+	}
+
+#menu .mylink a.active  {
+    color: #800000 /*#800000;*/
+}
+
+
+/* Style the hamburger menu */
+#menu span a.icon {
+	display: none;
 }
 
 /*----  Dropdown Menu  -----*/
@@ -118,13 +133,41 @@
 	margin: 0px 0px 0px 325px;
 }
 
-#menu .dropdown-content a { /* Links inside the dropdown */
+#menu  .dropdown-content a { /* Links inside the dropdown */
     text-decoration: none;
 	text-align: left;
-	font-size: 0.9em
+	font-size: 0.9em;
+	position: relative;
+	display: inline-block;
+	color: #f2f2f2;
+	padding: 8px 10px 3px 10px;
+	font-weight: bold;
+	font-family: 'Headland One', serif;
 }
 
-#menu .dropbtn:hover + .dropdown-content, #menu .dropdown-content:hover { /* Show the dropdown menu on hover */
+#menu  .dropdown-content a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+
+#menu  .dropdown-content a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(0.85);
+	transform: scaleX(0.85);
+}
+
+#menu  .dropbtn:hover + .dropdown-content, #menu .dropdown-content:hover { /* Show the dropdown menu on hover */
     display: block;
 }
 
@@ -376,8 +419,6 @@ table, th, td {
 /*https://www.websitedimensions.com/*/
 @media screen and (max-width: 768px){
 	
-	
-
 /* -------------------------     General   ------------------------*/
 .backgroundcolor {
 	 background-color: #f2f2f2
@@ -386,9 +427,9 @@ table, th, td {
 /* -------------------------  Header   ------------------------*/
 
 .webhead {
-	margin: auto;
-	width: 72%;
-	padding: 20px;
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
 }
 
 /*  Head Menu  */
@@ -399,22 +440,49 @@ table, th, td {
     overflow: hidden;
     background-color: #8c8c8c; /*#737373; #333*/ 
 	box-shadow: 2px 2px 2px #4d4d4d;
-	
+	position: relative;
 }
 
 #menu #name {
-	float:left;
+	position: relative;
+	display: block; 
+	float: none;
+}
+
+#menu .mylink {
+    position: relative;
+	display: block;
 }
 
 #menu #name a {
-	padding: 5px 50px 3px 10px;
+	position: relative;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: left; 
+	text-decoration: none; 
+	padding: 8px 10px 3px 10px;
+	font-weight: bold;
+	font-family: 'Headland One', serif;
 	font-size: 1.30em;
+	
+}
+
+#menu .mylink a {
+	position: relative;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: left; 
+	text-decoration: none; 
+	padding: 8px 10px 3px 10px;
+	font-weight: bold;
+	font-family: 'Headland One', serif;
+	font-size: 1.0em;
 }
 
 #menu #name a:before {
 	content: "";
 	position: absolute;
-	margin: 0px 0px 0px -20px;
+    margin: 0px 0px 0px 0px;
 	width: 100%;
 	height: 2px;
 	bottom: 0;
@@ -426,6 +494,24 @@ table, th, td {
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
 }
+
+#menu .mylink a:before {
+	content: "";
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	
+}
+
 
 #menu #name a:hover:before {
 	visibility: visible;
@@ -433,49 +519,50 @@ table, th, td {
 	transform: scaleX(0.85);
 }
 
-#menu  a {
-	position: relative;
-	display: inline-block;
-	color: #f2f2f2;
-	text-align: center; 
-	text-decoration: none; 
-	padding: 8px 10px 3px 10px;
-	font-weight: bold;
-	font-family: 'Headland One', serif;
-	font-size: 1.10em;
-}
-
-#menu a.active  {
-    color: #800000 /*#800000;*/
-	}
-
-#menu  a:before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #f2f2f2;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-}
-
-
-#menu a:hover:before {
+#menu .mylink a:hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(0.85);
 	transform: scaleX(0.85);
 }
 
+#menu #name a.active  {
+    color: #800000 /*#800000;*/
+	}
+
+#menu .mylink a.active  {
+    color: #800000 /*#800000;*/
+}
+
+#menu #myLinks { /* (Hidden by Default) */
+    display: block;
+		
+}
+
+/* Style the hamburger menu */
+#menu span a.icon {
+  color: #f2f2f2;
+  display: inline-block;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  font-size: 1.75em;
+}
+
+#menu span a.icon:hover {
+  color: #800000;
+}
+
+/* Hamuberger dropdown menu */
+
+
+
+
+
 /*----  Dropdown Menu  -----*/
 
 .dropbtn {
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 #menu .dropdown-content { /* (Hidden by Default) */
@@ -493,11 +580,12 @@ table, th, td {
 #menu .dropdown-content a { /* Links inside the dropdown */
     text-decoration: none;
 	text-align: left;
-	font-size: 0.9em
+	font-size: 0.9em;
+	display: none; 
 }
 
 #menu .dropbtn:hover + .dropdown-content, #menu .dropdown-content:hover { /* Show the dropdown menu on hover */
-    display: block;
+    display: none;
 }
 
 
@@ -579,7 +667,7 @@ table, th, td {
 
 .img_profile img {
 	box-sizing: border-box;
-	width: 100%;
+	width: 50%;
 	height: auto;
 	margin: auto;
 	padding: 0px 0px 0px 0px;
@@ -590,9 +678,9 @@ table, th, td {
 	display: inline-block;
 }
 
-.col-xs-12 div:last-child {
+.col-xs-12  {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
   }
 
 /*-- img left --*/
