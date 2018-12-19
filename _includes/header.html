@@ -8,58 +8,43 @@
 	<link href="https://fonts.googleapis.com/css?family=Headland+One" rel="stylesheet">
 	<!-- Cool Menu Icon for Mobiles-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link rel="stylesheet" href="{{ "/assets/css/icon-menu.css" | prepend: site.baseurl | prepend: site.url }}"/>
+	<!-- Jquery-->
+	<!--<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script></script>-->
 
 	</head>
 	
 	<body>
-		
-		<div id="menu">
-					<span id="name">
-						<a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" {% if "/"  == page.url %} class="active" {% endif %}>Daniel Velásquez Cabrera           </a>
-					</span>
-			{% assign sorted_pages = site.pages | sort:"order" %}
-			{% for pp in sorted_pages %}
-				{% if pp.order > 0 %}
+		<input type ="checkbox" id="btn-menu">
+		<label for = "btn-menu" class ="icon-menu"></label>
+		<nav id="menu">
+					<ul>
+						<li id="name"><a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" {% if "/"  == page.url %} class="active"  {% endif %}>Daniel Velásquez Cabrera           </a></li>
 					
-					<span id = "myLinks">
-						<span {% if pp.dropdown_folder != 'no' %} class="dropbtn mylink" {% endif %} class ="mylink">
-							<a href="{{ pp.url | prepend: site.baseurl | prepend: site.url }}" {% if page.url==pp.url %} class="active" {% elsif page.url contains pp.url %} class="active" {% endif %}> {{ pp.title }}</a>
-						</span>
+						{% assign sorted_pages = site.pages | sort:"order" %}
+						{% for pp in sorted_pages %}
+						{% if pp.order > 0 %}
+						<li {% if pp.dropdown_folder != 'no' %} class="dropbtn mylink" {% endif %} class ="mylink">
+							<a href="{{ pp.url | prepend: site.baseurl | prepend: site.url }}" {% if page.url==pp.url %} class="active" {% elsif page.url contains pp.url %} class="active" {% endif %}> {{ pp.title }} {% if pp.dropdown_folder != 'no' %}<span class="icon-down-open"></span>{% endif %}</a>
+						</li>
 					
-						{% if pp.dropdown_folder != 'no' %} <!--drop down menu -->
-							<div class = "dropdown-content"> 
-								{% assign foldername = pp.dropdown_folder %}
-								{% assign sorted_pages2 = site.[pp.dropdown_folder] | sort:"order" %}
-								{% for pp2 in sorted_pages2 %}
-									{% if pp2.hide != 1 %}
-									<div>
-										<a href="{{ pp2.url | prepend: site.baseurl | prepend: site.url }}"> {{ pp2.title }}</a>
-									</div>
-									{% endif %}
-								{% endfor %}
-							</div>
+							{% if pp.dropdown_folder != 'no' %} <!--drop down menu -->
+								<ul class = "dropdown-content"> 
+									{% assign foldername = pp.dropdown_folder %}
+									{% assign sorted_pages2 = site.[pp.dropdown_folder] | sort:"order" %}
+									{% for pp2 in sorted_pages2 %}
+										{% if pp2.hide != 1 %}
+										<li>
+											<a href="{{ pp2.url | prepend: site.baseurl | prepend: site.url }}"> {{ pp2.title }}</a>
+										</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+							{% endif %}
 						{% endif %}
-					</span>
-				{% endif %}
-			{% endfor %}
-			
-					<span> <!--hamburger menu for mobile view-->
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>	
-					</span>
-		</div>
-
+						{% endfor %}
+					</ul>
+		</nav>
 	</body>
-
-
-	<script> <!--defining function to get menu elements-->
-	function myFunction2() {
-	var x = document.getElementById("myLinks");
-	if (x.style.display === "block") {
-		x.style.display = "none";
-	} else {
-		x.style.display = "block";
-	}
-	}
-	</script>
+	<!-- <script src="{{ "/assets/menu.js" | prepend: site.baseurl | prepend: site.url }}"></script>-->
 

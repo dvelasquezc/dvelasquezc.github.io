@@ -14,7 +14,7 @@ dropdown_folder: "no"
 			
 		<div>
 		<ul>	
-			<li><a href ="{{ paper.url }}"> <h3>{{ paper.title }}</h3></a></li>
+			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
 			{% if paper.coauthors %}
 				<i>With
 				{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
@@ -55,7 +55,7 @@ dropdown_folder: "no"
 			
 			<div class ="conferences">
 			{% if  paper.presented  != 'no' %}
-				<i>Presented in: {{ paper.presented }}</i> <br />
+				<i>Presented in: {{ paper.presented }}</i><br />
 			{% endif %}
 			<br />
 			</div>

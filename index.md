@@ -9,7 +9,7 @@ dropdown_folder: "no"
 ---
 <article>
 <header class="page-header">
-	<h1>Daniel Velásquez Cabrera</h1>	
+	<h2>Welcome to my homepage!</h2>	
 </header>
 
 <hr>
@@ -20,7 +20,6 @@ dropdown_folder: "no"
 		</div> 
 		
 		<span>  
-			<span class="text"> <p> Welcome to my homepage!</p></span>
 			<span class="text"> <p> I am an applicant to a PhD program in Economics. My fields of interest include development and labor economics, both with a focus on economic geography and urban economics.
 			Broadly speaking, I am currently studying how external shocks (e.g. mining and trade liberalization) affect microeconomic markets, among other research projects. </p></span>
 	
