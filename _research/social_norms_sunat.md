@@ -3,6 +3,7 @@ title: Social Norms, Civic Duty and Tax Compliance
 coauthors: Gustavo Yamada, Juan Francisco Castro, Arlette Beltrán
 pubstatus: mimeo
 presented: "no"
+pdf: "no"
 abstract: 'We are currently carrying out the field work. We are sending messages to rent income debtors. These messages refer to the prevailing social norms (how most of the people pay) and the civic duty (why it is important to pay taxes) in order to evaluate whether these messages increase compliance. To understand the mechanisms behind, we will carry out an endline survey.'
 order_paper: 5
 layout: page

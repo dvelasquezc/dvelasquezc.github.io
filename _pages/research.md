@@ -53,12 +53,20 @@ dropdown_folder: "no"
 				</i>
 			{% endif %}
 			
-			<div class ="conferences">
-			{% if  paper.presented  != 'no' %}
-				<i>Presented in: {{ paper.presented }}</i><br />
-			{% endif %}
-			<br />
+			
+			{% if paper.pdf != 'no' %}
+			<div class = "pdf">
+				<u>{{ paper.pdf }}</u>
 			</div>
+			{% endif %}
+			
+			
+			{% if  paper.presented  != 'no' %}
+			<div class ="conferences">
+				<i>Presented in: {{ paper.presented }}</i>
+			</div>
+			{% endif %}
+			
 		</ul>	
 		</div>
 			
