@@ -20,8 +20,8 @@ dropdown_folder: "no"
 		</div> 
 		
 		<span>  
-			<span class="text"> <p> I am an applicant to a PhD program in Economics. My fields of interest include development and labor economics, both with a focus on economic geography and urban economics.
-			Broadly speaking, I am currently studying how external shocks (e.g. mining and trade liberalization) affect microeconomic markets, among other research projects. </p></span>
+			<span class="text"> <p> I am economics PhD student at University of Michigan. I will be starting my first year this fall. My fields of interest include development and labor economics, both with a focus on economic geography and urban economics.
+			Broadly speaking, I am currently studying how external shocks (e.g. trade liberalization) affect microeconomic markets, among other research projects related to the effect of agglomeration. </p></span>
 	
 			<span class="text"> <p> I have completed a M.Sc in Economics at Universidad del Pacifico. I am a recipient of the Robert Maes of the Graduate School prize, which is given to the student with 
 			the highest GPA among the thirteen master programs offered by the university.</p></span>
