@@ -2,7 +2,7 @@
 layout: page
 title: "PhD Application"
 permalink: "/application/"
-order: 2
+order: 4
 dropdown_folder: "phdapplication"
 ---
 

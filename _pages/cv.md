@@ -2,7 +2,7 @@
 layout: page
 title: "CV"
 permalink: "/cv/"
-order: 4
+order: 3
 dropdown_folder: "no"
 ---
 

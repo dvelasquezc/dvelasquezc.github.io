@@ -2,11 +2,12 @@
 layout: page
 title: "Research"
 permalink: "/research/"
-order: 3
+order: 2
 dropdown_folder: "no"
+#corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
 
-<h2> Work in Progress</h2>
+<h2> Work in Progress (pre-doctoral research) </h2>
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
@@ -57,6 +58,12 @@ dropdown_folder: "no"
 			{% if paper.pdf != 'no' %}
 			<div class = "pdf">
 				<u>{{ paper.pdf }}</u>
+			</div>
+			{% endif %}
+			
+			{% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
+			<div class = "pdf">
+				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Submitted - Last version here] </a></u>
 			</div>
 			{% endif %}
 			
