@@ -62,19 +62,19 @@ dropdown_folder: "no"
 			{% endif %}
 			{% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Submitted - Last version here] </a></u>
+				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Submitted - Latest version here] </a></u>
 			</div>
 			{% endif %}
 
 			{% if paper.title == 'Computers, Discretion and Discrimination: Evidence from Two Natural Field Experiments' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Last version here] </a></u>
+				<u><a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Latest version here] </a></u>
 			</div>
 			{% endif %}
 			
 			{% if paper.title == 'I Read the News Today, oh Boy: The Effect of Crime News Coverage on Crime Perception and Trust' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/paper_crime.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in World Development - Last version here] </a></u>
+				<u><a href="{{ "/assets/pdfs/paper_crime.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in World Development - Latest version here] </a></u>
 			</div>
 			{% endif %}
 			
