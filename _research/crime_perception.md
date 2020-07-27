@@ -8,7 +8,7 @@ abstract: "Crime perception has increased in Peru, as in other developing and de
 order_paper: 3
 layout: page
 ---
-<a href="{{ "/assets/pdfs/paper_crime.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in World Development - Last version here] </a>
+<a href="{{ "/assets/pdfs/paper_crime.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in World Development - Latest version here] </a>
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 {% if page.presented != 'no' %}
 <p><b>Presented in</b>: {{ page.presented }} </p>

@@ -8,7 +8,7 @@ abstract: 'Whereas computer technologies increase productivity, they also dimini
 order_paper: 2
 layout: page
 ---
-<a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Last version here] </a>
+<a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Latest version here] </a>
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 {% if page.presented != 'no' %}
 <p><b>Presented in</b>: {{ page.presented }} </p>
