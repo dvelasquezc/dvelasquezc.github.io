@@ -20,11 +20,7 @@ dropdown_folder: "no"
 		</div> 
 		
 		<span>  
-			<span class="text"> <p> I am Peruvian economics Ph.D. student at the University of Michigan, currently enrolled in the second year. My fields of interest include development economics and international trade, both with a focus on economic geography and urban economics.</p></span>
-		</span>
-		
-		<span>
-			<span class="text"> <p> Feel free to check <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">my current research</a>.</p></span>
+			<span class="text"> <p> I am Peruvian economics Ph.D. student at the University of Michigan, currently enrolled in the second year. My fields of interest include development economics and international trade, both with a focus on economic geography and urban economics. Feel free to check <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">my current research</a>.</p></span>
 		</span>
 		
 	</div>
