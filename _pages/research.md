@@ -7,11 +7,78 @@ dropdown_folder: "no"
 #corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
 
-<h2> Work in Progress (pre-doctoral research) </h2>
+<h2> Published and accepted papers </h2>
+<div>
+	{% assign research_sorted = site.research | sort: "order_paper" %}
+	{% for paper in research_sorted %}
+	{% if paper.pubstatus == "Published" %}
+			
+		<div>
+		<ul>	
+			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
+			{% if paper.coauthors %}
+				<i>With
+				{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
+				{% assign last = coauthors | last %}
+				{% assign first = coauthors | first %}
+				{% for author in coauthors %}
+					{% assign authordata = site.data.authors[author] %}
+					{% if author == last and author == first %}
+						{% if authordata.webpage  != "no" %}
+							<a href="{{ authordata.webpage }}">{{ author }}</a>
+						{% else %}
+							{{ author }}
+						{% endif %}
+					{% elsif author == last and author != first %}
+						{% if authordata.webpage != "no" %}
+							and
+							<a href="{{ authordata.webpage }}">{{ author }}</a>
+						{% else %}
+							and
+							{{ author }}
+						{% endif %}
+					{% elsif author != last and author == first %}
+						{% if authordata.webpage  != "no" %}
+							<a href="{{ authordata.webpage }}">{{ author }}</a>,
+						{% else %}
+							{{ author | append:',' }}
+						{% endif %}
+					{%	elsif author != last and author != first %}
+						{% if authordata.webpage  != "no" %}
+							<a href="{{ authordata.webpage }}">{{ author }}</a>,
+						{% else %}
+							{{ author | append:',' }}
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+				</i>
+			{% endif %}
+			
+			<div class = "pdf">
+				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
+			</div>
+			
+			{% if  paper.presented  != 'no' %}
+			<div class ="conferences">
+				<i>Presented in: {{ paper.presented }}</i>
+			</div>
+			{% endif %}						
+					
+		</ul>	
+		</div>
+	{% endif %}	
+	{% endfor %}
+</div>
+
+
+
+
+<h2> Work in progress </h2>
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
 	{% for paper in research_sorted %}
+	{% if paper.pubstatus == "mimeo" %}
 			
 		<div>
 		<ul>	
@@ -83,14 +150,11 @@ dropdown_folder: "no"
 			<div class ="conferences">
 				<i>Presented in: {{ paper.presented }}</i>
 			</div>
-			{% endif %}
-			
-			
-			
-		
+			{% endif %}						
+					
 		</ul>	
 		</div>
-			
+	{% endif %}	
 	{% endfor %}
 </div>
 
@@ -103,5 +167,5 @@ dropdown_folder: "no"
 
 <h2> Other Research Efforts </h2>
 <div class="text">
-   <p> With other <a href="https://github.com/orgs/PeruData/people">prospective PhD students</a>, we are building an <a href="https://github.com/PeruData"> online repository</a> of Peruvian data, which we have named <a href="https://github.com/PeruData"><u><i>PeruData</i></u></a>. Our idea is to reduce the costs of researching about Peru by providing a public good useful for other researchers. We will progressively be uploading more codes and files.</p>
+   <p> With other <a href="https://github.com/orgs/PeruData/people">prospective PhD students</a>, we are building an <a href="https://github.com/PeruData"> online repository</a> of Peruvian data, which we have named <a href="https://github.com/PeruData"><u><i>PeruData</i></u></a>. Our objective is to provide a public good, useful for other researchers aiming to study about Peru. We will progressively be uploading more codes and files.</p>
 </div>

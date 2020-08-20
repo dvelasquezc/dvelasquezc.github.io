@@ -20,11 +20,13 @@ dropdown_folder: "no"
 		</div> 
 		
 		<span>  
-			<span class="text"> <p> I am first year economics PhD student at University of Michigan. My fields of interest include development economics and international trade, both with a focus on economic geography and urban economics.
-			Broadly speaking, I am currently studying how external shocks (e.g. trade liberalization) affect microeconomic markets, among <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">other research projects</a>.</p></span>
-	
-			<span class="text"><p> Aside from academics, I enjoy reading literature (from classics as William Shakespeare to more contemporaneous authors as Milan Kundera) and playing drums.</p></span>
+			<span class="text"> <p style="font-size:1.20em"> I am Peruvian economics Ph.D. student at the University of Michigan, currently enrolled in the second year. My fields of interest include development economics and international trade, both with a focus on economic geography and urban economics.</p></span>
 		</span>
+		
+		<span>
+			<span class="text"> <p style="font-size:1.20em"> Feel free to check <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">my current research</a>.</p></span>
+		</span>
+		
 	</div>
 
 </article>

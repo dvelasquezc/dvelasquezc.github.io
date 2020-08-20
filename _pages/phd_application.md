@@ -7,7 +7,7 @@ dropdown_folder: "phdapplication"
 ---
 
 <div>
-	<p> In this section, I have stored most of the documentation and info related to my application. Feel free to check the following links: </p>
+	<p> In this section, I have stored most of the documentation and info related to my application. I am keeping online my application material to help Peruvian students applying to a Ph.D. in Economics. If anyone is need of guidance, feel free to write me an e-mail or to contact me via twitter. </p>
 </div>
 <div>
 	{% assign sorted_pages2 = site.phdapplication | sort:"order" %}
