@@ -138,10 +138,10 @@ dropdown_folder: "no"
 				<u><a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Latest version here] </a></u>
 			</div>
 			{% endif %}
-			
-			{% if paper.title == 'I Read the News Today, oh Boy: The Effect of Crime News Coverage on Crime Perception and Trust' %}
+				
+			{% if paper.title == 'Spillovers and Long Run Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/paper_crime.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in World Development - Latest version here] </a></u>
+				<u><a href="{{ paper.link }}" target="_blank"> [Submitted - Latest version here] </a></u>
 			</div>
 			{% endif %}
 			
