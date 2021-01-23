@@ -1,16 +1,16 @@
 ---
-title: "Computers, Discretion and Discrimination: Evidence from Two Natural Field Experiments"
+title: "Computers and Discretion: Evidence from Two Natural Field Experiments"
 coauthors: Alberto Chong, Mónica Yáñez-Pagans
-pubstatus: "mimeo"
-journal: "no"
+pubstatus: "Published"
+journal: "Accepted in Economic Development and Cultural Change"
 link: "no"
 presented: "no"
 pdf: "no"
-abstract: 'Whereas computer technologies increase productivity, they also diminish discrimination by reducing discretion in situations of monopoly power in the public sector. We exploit two natural field experiments related to the renewal of identification cards in Bolivia to show that, as expected, applicants randomly assigned to a computer process are more likely to complete renewal faster as compared to those assigned to a manual one. More interestingly, we also find that computers help reduce discrimination based on observable characteristics, such as age, gender, and rural-urban background. Finally, we find that corruption may be reduced too, as it typically goes hand in hand with discrimination issues.'
-order_paper: 2
+abstract: 'Whereas the use of computers can increase productivity, it may also promote greater equality. We exploit two natural field experiments related to the renewal of national identification cards in Bolivia and show that applicants randomly assigned to a computer renewal process not only are more likely to successfully complete it, but they do it faster than when assigned to a manual process. We also show that the introduction of digital technologies substantially removed heterogeneity in the delivery of the public service, especially for individuals of less favored characteristics. Information technologies may help curb petty corruption by reducing discretion.'
+order_paper: 1
 layout: page
 ---
-<a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Latest version here] </a>
+<a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Accepted in Economic Development and Cultural Change - Latest version here] </a>
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 {% if page.presented != 'no' %}
 <p><b>Presented in</b>: {{ page.presented }} </p>

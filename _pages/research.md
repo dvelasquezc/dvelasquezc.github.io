@@ -53,10 +53,18 @@ dropdown_folder: "no"
 				{% endfor %}
 				</i>
 			{% endif %}
-			
+				
+			{% if paper.link != 'no' %}
 			<div class = "pdf">
 				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
 			</div>
+			{% endif %}
+				
+			{% if paper.title == 'Computers and Discretion: Evidence from Two Natural Field Experiments' %}
+			<div class = "pdf">
+				<u><a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Accepted in Economic Development and Cultural Change - Latest version here] </a></u>
+			</div>
+			{% endif %}
 			
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
@@ -127,17 +135,14 @@ dropdown_folder: "no"
 				<u>{{ paper.pdf }}</u>
 			</div>
 			{% endif %}
+			
+			
 			{% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Submitted - Latest version here] </a></u>
 			</div>
 			{% endif %}
 
-			{% if paper.title == 'Computers, Discretion and Discrimination: Evidence from Two Natural Field Experiments' %}
-			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Latest version here] </a></u>
-			</div>
-			{% endif %}
 				
 			{% if paper.title == 'Spillovers and Long Run Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
 			<div class = "pdf">
