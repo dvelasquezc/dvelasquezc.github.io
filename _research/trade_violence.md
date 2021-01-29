@@ -11,7 +11,7 @@ order_paper: 1
 layout: page
 #corregir como se ponen pdfs
 ---
-<a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Submitted - Latest version here] </a>
+<a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [RR in Economic Development and Cultural Change - Latest version here] </a>
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 {% if page.presented != 'no' %}
 <p><b>Presented in</b>: {{ page.presented }} </p>
