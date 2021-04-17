@@ -59,13 +59,13 @@ dropdown_folder: "no"
 				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
 			</div>
 			{% endif %}
-				
-			{% if paper.title == 'Computers and Discretion: Evidence from Two Natural Field Experiments' %}
-			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Accepted in Economic Development and Cultural Change - Latest version here] </a></u>
+			
+			{% if  paper.funding  != 'no' %}
+			<div class ="conferences">
+				<i>Project financed by grant from {{ paper.funding }}</i>
 			</div>
 			{% endif %}
-			
+						
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
 				<i>Presented in: {{ paper.presented }}</i>
@@ -150,6 +150,11 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}
 			
+			{% if  paper.funding  != 'no' %}
+			<div class ="conferences">
+				<i>Project financed by grant from {{ paper.funding }}</i>
+			</div>
+			{% endif %}
 			
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">

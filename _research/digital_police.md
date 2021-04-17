@@ -3,10 +3,11 @@ title: "Computers and Discretion: Evidence from Two Natural Field Experiments"
 coauthors: Alberto Chong, Mónica Yáñez-Pagans
 pubstatus: "Published"
 journal: "Accepted in Economic Development and Cultural Change"
-link: "no"
+link: "https://www.journals.uchicago.edu/doi/10.1086/714066"
 presented: "no"
 pdf: "no"
 abstract: 'Whereas the use of computers can increase productivity, it may also promote greater equality. We exploit two natural field experiments related to the renewal of national identification cards in Bolivia and show that applicants randomly assigned to a computer renewal process not only are more likely to successfully complete it, but they do it faster than when assigned to a manual process. We also show that the introduction of digital technologies substantially removed heterogeneity in the delivery of the public service, especially for individuals of less favored characteristics. Information technologies may help curb petty corruption by reducing discretion.'
+funding: "no"
 order_paper: 1
 layout: page
 ---
