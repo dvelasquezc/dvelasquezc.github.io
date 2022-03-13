@@ -144,9 +144,9 @@ dropdown_folder: "no"
 			{% endif %}
 
 				
-			{% if paper.title == 'Spillovers and Long Run Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
+			{% if paper.title == 'The Direct and Indirect Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
 			<div class = "pdf">
-				<u><a href="{{ paper.link }}" target="_blank"> [Submitted - Latest version here] </a></u>
+				<u><a href="{{ "/assets/pdfs/taxes_rct_messages.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Journal of Economic Behavior and Organization - Latest version here] </a></u>
 			</div>
 			{% endif %}
 			
