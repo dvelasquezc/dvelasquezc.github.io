@@ -1,5 +1,5 @@
 ---
-title: 'Urban Transit Infrastructure: Gender Gap and Commuting Times [Working paper soon]'
+title: 'Urban Transit Infrastructure: Gender Gap and Commuting Times (Working paper soon)'
 pubstatus: "mimeo"
 journal: "no"
 link: "no"
@@ -11,8 +11,6 @@ order_paper: 4
 layout: page
 #corregir como se ponen pdfs
 ---
-<p>[Working paper soon] </p>
-
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 
 {% if page.presented != 'no' %}
