@@ -60,6 +60,13 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}
 			
+			
+			% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
+			<div class = "pdf">
+				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Just accepted in Economic Development and Cultural Change - Latest version here] </a></u>
+			</div>
+			{% endif %}
+			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
 				<i>Project financed by grant from {{ paper.funding }}</i>
@@ -135,14 +142,7 @@ dropdown_folder: "no"
 				<u>{{ paper.pdf }}</u>
 			</div>
 			{% endif %}
-			
-			
-			{% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
-			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Economic Development and Cultural Change - Latest version here] </a></u>
-			</div>
-			{% endif %}
-
+				
 				
 			{% if paper.title == 'The Direct and Indirect Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
 			<div class = "pdf">
