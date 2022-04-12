@@ -1,5 +1,5 @@
 ---
-title: "Agglomeration Effects and Informality: the Case of Peru (Working paper soon)"
+title: "Agglomeration Effects and Informality: the Case of Peru (Working paper coming soon)"
 coauthors: Jorge de la Roca, Andrii Parkhomenko
 pubstatus: "mimeo"
 journal: "no"

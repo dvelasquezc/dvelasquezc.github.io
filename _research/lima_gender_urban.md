@@ -1,5 +1,5 @@
 ---
-title: 'Urban Transit Infrastructure: Gender Gap and Commuting Times (Working paper soon)'
+title: 'Urban Transit Infrastructure: Gender Gap and Commuting Times (Working paper coming soon)'
 pubstatus: "mimeo"
 journal: "no"
 link: "no"
