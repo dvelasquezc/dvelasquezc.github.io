@@ -61,7 +61,7 @@ dropdown_folder: "no"
 			{% endif %}
 			
 			
-			% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
+			{% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Just accepted in Economic Development and Cultural Change - Latest version here] </a></u>
 			</div>
