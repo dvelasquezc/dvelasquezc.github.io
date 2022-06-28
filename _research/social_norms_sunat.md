@@ -8,7 +8,7 @@ presented: "no"
 pdf: "no"
 abstract: ' We carry out a randomized controlled trial to evaluate the effect of three different types of messages sent to taxpayers on their compliance with the rental income tax (direct effect) and the spillovers produced on payments related to the capital gains and the self-employment income taxes. One message highlights detection, other appeals to social norms, and the third type appeals to altruism. We also perform a 15-month follow-up to determine if the treatment increases tax revenues in a sustained manner. Wefind that the message addressing detection produces a positive and sustained direct effect and a negative but transitory spillover on the other two taxes. The social norms message has no directeffect but produces a sustained negative spillover on the capital gains tax. The message appealing to altruism produces a transitory negative effect and no spillovers. We show there is substantial risk of overestimating the tax revenues produced by the messages if one relies only on their direct effects.'
 funding: "no"
-order_paper: 2
+order_paper: 1
 layout: page
 ---
 <a href="{{ "/assets/pdfs/taxes_rct_messages.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [RR in Journal of Economic Behavior and Organization - Latest version here] </a>

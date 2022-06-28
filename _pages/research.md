@@ -59,13 +59,7 @@ dropdown_folder: "no"
 				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
 			</div>
 			{% endif %}
-			
-			
-			{% if paper.title == 'Does Trade Liberalization Foster Intimate Partner Violence?' %}
-			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Just accepted in Economic Development and Cultural Change - Latest version here] </a></u>
-			</div>
-			{% endif %}
+					
 			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
@@ -147,6 +141,12 @@ dropdown_folder: "no"
 			{% if paper.title == 'The Direct and Indirect Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/taxes_rct_messages.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Journal of Economic Behavior and Organization - Latest version here] </a></u>
+			</div>
+			{% endif %}
+			
+			{% if paper.title == 'Transit Infrastructure and Couples&apos; Commuting Choices in General Equilibrium' %}
+			<div class = "pdf">
+				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Latest version here] </a></u>
 			</div>
 			{% endif %}
 			
