@@ -146,7 +146,7 @@ dropdown_folder: "no"
 			
 			{% if paper.title == 'Transit Infrastructure and Couples&apos; Commuting Choices in General Equilibrium' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Latest version here] </a></u>
+				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Preliminary draft here] </a></u>
 			</div>
 			{% endif %}
 			
