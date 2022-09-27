@@ -137,12 +137,6 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}
 				
-				
-			{% if paper.title == 'The Direct and Indirect Effects of Messages on Tax Compliance: Experimental Evidence from Peru' %}
-			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/taxes_rct_messages.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [R&R in Journal of Economic Behavior and Organization - Latest version here] </a></u>
-			</div>
-			{% endif %}
 			
 			{% if paper.title == 'Transit Infrastructure and Couples&apos; Commuting Choices in General Equilibrium' %}
 			<div class = "pdf">
