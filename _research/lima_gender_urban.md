@@ -1,5 +1,5 @@
 ---
-title: 'Transit Infrastructure and Couples&apos; Commuting Choices in General Equilibrium'
+title: 'Transit Infrastructure, Couples&apos; Commuting Choices, and Household Wage Structure'
 pubstatus: "mimeo"
 journal: "no"
 link: "no"

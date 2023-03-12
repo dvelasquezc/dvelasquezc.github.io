@@ -138,7 +138,7 @@ dropdown_folder: "no"
 			{% endif %}
 				
 			
-			{% if paper.title == 'Transit Infrastructure and Couples&apos; Commuting Choices in General Equilibrium' %}
+			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Household Wage Structure' %}
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [New draft here] </a></u>
 			</div>
