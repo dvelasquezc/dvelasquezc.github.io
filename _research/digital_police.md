@@ -2,7 +2,7 @@
 title: "Computers and Discretion: Evidence from Two Natural Field Experiments"
 coauthors: Alberto Chong, Mónica Yáñez-Pagans
 pubstatus: "Published"
-journal: "Forthcoming in Economic Development and Cultural Change"
+journal: "Economic Development and Cultural Change 71.1 (2022): 63-109."
 link: "https://www.journals.uchicago.edu/doi/10.1086/714066"
 presented: "no"
 pdf: "no"

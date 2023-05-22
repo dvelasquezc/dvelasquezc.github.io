@@ -82,7 +82,7 @@ dropdown_folder: "no"
 
 
 
-<h2> Work in progress </h2>
+<h2> Working papers and Work in progress </h2>
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
