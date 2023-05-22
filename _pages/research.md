@@ -82,7 +82,7 @@ dropdown_folder: "no"
 
 
 
-<h2> Working papers and Work in progress </h2>
+<h2> Working papers and work in progress </h2>
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
@@ -165,14 +165,14 @@ dropdown_folder: "no"
 	{% endfor %}
 </div>
 
-<h2> Broader Audience Writing </h2>
+<h2> Broader audience writing </h2>
 <ul>
 <li style="font-weight: bold;"><a href ="https://jorgedelaroca.name/r_covidperu.pdf"> Incidencia de COVID-19 en las áreas urbanas del Perú </a></li>
 	<i> With <a href ="https://jorgedelaroca.name/index.html"> Jorge de la Roca</a></i> 
 </ul>
 
 
-<h2> Other Research Efforts </h2>
+<h2> Other research efforts </h2>
 <div class="text">
    <p> With other <a href="https://github.com/orgs/PeruData/people">prospective PhD students</a>, we are building an <a href="https://github.com/PeruData"> online repository</a> of Peruvian data, which we have named <a href="https://github.com/PeruData"><u><i>PeruData</i></u></a>. Our objective is to provide a public good, useful for other researchers aiming to study about Peru. We will progressively be uploading more codes and files.</p>
 </div>
