@@ -1,6 +1,6 @@
 ---
 title: "Skill Allocation and Urban Amenities in the Developing World (Working paper coming soon)"
-coauthors: Jorge de la Roca, Andrii Parkhomenko
+coauthors: Andrii Parkhomenko, Jorge de la Roca 
 pubstatus: "mimeo"
 journal: "no"
 link: "no"
