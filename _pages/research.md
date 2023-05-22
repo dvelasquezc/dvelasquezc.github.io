@@ -142,6 +142,9 @@ dropdown_folder: "no"
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [New draft here] </a></u>
 			</div>
+			<div class = "conferences">
+				<i>“Honorable Mention” for Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
+			</div>			
 			{% endif %}
 			
 			{% if  paper.funding  != 'no' %}
