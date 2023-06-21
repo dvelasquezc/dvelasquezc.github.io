@@ -1,12 +1,12 @@
 ---
-title: "Initial Conditions, Size, and the Biggest Push in US History"
+title: "Initial Conditions, Size, and the Biggest Push in US History (Working paper coming soon)"
 coauthors: Dominick Bartelme, Zhimin Li
 pubstatus: "mimeo"
 journal: "no"
 link: "no"
 presented: "no"
 pdf: "no"
-abstract: 'In this paper we exploit cross-sectional variation in the single largest public spending program in U.S. history—World War II (WWII) defense spending—and estimate its long-run effects on structural change in local economies, despite its temporary nature. We link a dataset of war supply contracts during WWII with data on the long-run growth of U.S. counties from 1930 to 2000. Using regions that obtained few or no defense contracts as a control group and controlling for prewar economic and geographic features, we find that defense spending led to sustained gains in employment in manufacturing and other  non-agricultural sectors, contributing to the long-term population growth in war production centers.  Moreover, we document that sustained gains were present mostly on places with low initial manufacturing share. This supports the idea of multiplicity of equilibria, since places that were already in a “good” equilibrium (with high manufacturing share) have on average smaller responses. To rationalize these findings, we build on top of Donaldson and Allen (2020) and set up a quantitative model introducing a non-linear scale function, which delivers two potential equilibria in the steady state: a “good” and a ‘bad” equilibrium.'
+abstract: 'This paper examines the impact of WWII on U.S. economic geography. We approach this question empirically, theoretically, and quantitatively. Our empirical results show positive long run effects of WWII spending on overall population and manufacturing activity only in counties with initially low manufacturing employment.  Motivated by these findings, we develop a multisector economic geography model that features external economies of scale in manufacturing with non-constant elasticity. We structurally estimate the model and show that an S-shaped scale function allows the model to match our empirical moments. We use the estimated model to re-examine how WWII shaped the evolution of U.S. postwar economic geography.'
 funding: "no"
 order_paper: 5
 layout: page
