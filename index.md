@@ -19,7 +19,7 @@ dropdown_folder: "no"
 			<p><img src="/assets/images/profile4.jpg" alt="Daniel Velásquez Cabrera"></p>
 		</div> 
 		
-		<span>  
+		<span style="font-size: 20px;">  
 			<span class="text"> <p> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography and Development Economics. Feel free to check <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">my current research</a>.</p></span>
 		</span>
 		
