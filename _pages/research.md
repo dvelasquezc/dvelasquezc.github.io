@@ -138,7 +138,7 @@ dropdown_folder: "no"
 			{% endif %}
 				
 			
-			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Inequality' %}
+			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [New draft here] </a></u>
 			</div>

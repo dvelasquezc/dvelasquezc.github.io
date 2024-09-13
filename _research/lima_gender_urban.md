@@ -1,5 +1,5 @@
 ---
-title: 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Inequality'
+title: 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality'
 pubstatus: "mimeo"
 journal: "no"
 link: "no"
