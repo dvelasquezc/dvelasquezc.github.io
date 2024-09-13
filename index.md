@@ -94,19 +94,19 @@ dropdown_folder: "no"
 				<i>Submitted</i>
 			</div>				
 			<div class = "conferences">
-				<i>“Honorable Mention” for Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
+				<i>&#42; “Honorable Mention” for Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
 			</div>			
 			{% endif %}
 			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
-				<i>Project financed by grant from {{ paper.funding }}</i>
+				<i>&#42; Project financed by grant from {{ paper.funding }}</i>
 			</div>
 			{% endif %}
 			
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
-				<i>Presented in: {{ paper.presented }}</i>
+				<i>&#42; Presented in: {{ paper.presented }}</i>
 			</div>
 			{% endif %}						
 					
