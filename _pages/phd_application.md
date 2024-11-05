@@ -4,6 +4,7 @@ title: "PhD Application"
 permalink: "/application/"
 order: 4
 dropdown_folder: "phdapplication"
+show: "no"
 ---
 
 <div>

@@ -4,6 +4,7 @@ title: "Research"
 permalink: "/research/"
 order: 2
 dropdown_folder: "no"
+show: "yes"
 #corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
 

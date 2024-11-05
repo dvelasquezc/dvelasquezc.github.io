@@ -4,6 +4,7 @@ title: "CV"
 permalink: "/cv/"
 order: 3
 dropdown_folder: "no"
+show: "yes"
 ---
 <div>
 	<u><a href="{{ "/assets/pdfs/CV_JM_Daniel_Velasquez.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Download here] </a></u>
