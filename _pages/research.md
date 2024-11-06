@@ -19,9 +19,9 @@ show: "yes"
 			
 		<div>
 		<ul>	
-			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
+			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a>
 			{% if paper.coauthors %}
-				<i>With
+				<i> (With
 				{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
 				{% assign last = coauthors | last %}
 				{% assign first = coauthors | first %}
@@ -54,9 +54,9 @@ show: "yes"
 							{{ author | append:',' }}
 						{% endif %}
 					{% endif %}
-				{% endfor %}
+				{% endfor %})
 				</i>
-			{% endif %}
+			{% endif %}</li>
 			
 			
 			{% if paper.pdf != 'no' %}
