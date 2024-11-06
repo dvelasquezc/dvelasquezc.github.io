@@ -74,7 +74,7 @@ show: "yes"
 				<i>Submitted</i>
 			</div>				
 			<div class = "conferences">
-				<i>“&#42; Honorable Mention” for Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
+				<i>&#42;“Honorable Mention”for Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
 			</div>			
 			{% endif %}
 			
