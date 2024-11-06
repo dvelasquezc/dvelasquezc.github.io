@@ -2,7 +2,7 @@
 title: 'Does Trade Liberalization Foster Intimate Partner Violence?'
 coauthors: Alberto Chong
 pubstatus: "Published"
-journal: "Forthcoming in Economic Development and Cultural Change"
+journal: "Economic Development and Cultural Change 72.2 (2024):  563-602."
 link: "https://www.journals.uchicago.edu/doi/10.1086/720717"
 presented: "no"
 pdf: "no"
