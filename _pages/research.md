@@ -68,7 +68,7 @@ show: "yes"
 			
 			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> <b>[New draft here]</b> </a></u>
+				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#722f37;> <b>[New draft here]</b> </a></u>
 			</div>
 			<div class = "conferences">
 				<i>Submitted</i>
@@ -81,7 +81,7 @@ show: "yes"
 			
 			{% if paper.title == 'Skill Allocation and Urban Amenities in the Developing World' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/peurban03.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> <b>[Preliminary draft here - do not cite]</b> </a></u>
+				<u><a href="{{ "/assets/pdfs/peurban03.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#722f37;> <b>[Preliminary draft here - do not cite]</b> </a></u>
 			</div>
 			{% endif %}			
 			
