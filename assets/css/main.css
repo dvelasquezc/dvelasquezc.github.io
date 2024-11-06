@@ -478,7 +478,7 @@ label {
 	box-shadow: 0px 0px 0px grey;
 	color: #262626;
 	font-family: 'Vollkorn', serif;
-	font-size: 1.2em
+	font-size: 1.15em
 }
 .col-xs-12  {
     display: flex;
@@ -492,5 +492,5 @@ label {
 
 
 .conferences {
-	font-size: 0.75em
+	font-size: 0.65em
 }
