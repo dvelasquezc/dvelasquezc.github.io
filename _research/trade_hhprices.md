@@ -1,5 +1,5 @@
 ---
-title: 'Trade in Appliances, Household Production, and Labor Force Participation (Working paper coming soon)'
+title: 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)'
 coauthors: Pamela Medina, Sebastian Sotelo
 pubstatus: "mimeo"
 journal: "no"

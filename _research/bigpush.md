@@ -1,5 +1,5 @@
 ---
-title: "Initial Conditions, Size, and the Biggest Push in US History (Working paper coming soon)"
+title: "Initial Conditions, Size, and the Biggest Push in US History (draft coming soon)"
 coauthors: Dominick Bartelme, Zhimin Li
 pubstatus: "mimeo"
 journal: "no"
