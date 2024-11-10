@@ -20,8 +20,16 @@ dropdown_folder: "no"
 		</div> 
 		
 		<span style="font-size: 25px;">  
-			<span class="text"> <p> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography and Development Economics. Feel free to check <a href="{{ "/research" | prepend: site.baseurl | prepend: site.url }}">my current research</a>.</p></span>
+			<span class="text"> <p> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography and Development Economics. </p></span>
 		</span>
+		
+		<span style="font-size: 25px;">  
+			<span class="text"> <p> <a href="{{ "/CV" | prepend: site.baseurl | prepend: site.url }}">CV</a></p></span>
+		</span>		
+			
+		<span style="font-size: 25px;">  			
+			<span class="text"> <p> <a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao">Google Scholar</a></p></span>
+		</span>		
 		
 	</div>
 
