@@ -218,8 +218,7 @@ table, th, td {
 }
 
 .profile-text img {
-	max-width: 150px; /* Adjust image size as needed */
-	border-radius: 50%; /* Optional: make the image round */
+	max-width: 200px; /* Adjust image size as needed */
 }
 
 .profile-content {
