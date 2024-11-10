@@ -20,15 +20,15 @@ dropdown_folder: "no"
 		</div> 
 		
 		<span style="font-size: 25px;">  
-			<span class="text"> <p> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography and Development Economics. </p></span>
+			<span class="text"> <p> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography, Urban Economics and Development Economics. </p></span>
 		</span>
 		
 		<span style="font-size: 25px;">  
-			<span class="text"> <p> <a href="{{ "/CV" | prepend: site.baseurl | prepend: site.url }}">CV</a></p></span>
+			<span class="text"> <p> <a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a></p></span>
 		</span>		
 			
 		<span style="font-size: 25px;">  			
-			<span class="text"> <p> <a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao">Google Scholar</a></p></span>
+			<span class="text"> <p> <a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a></p></span>
 		</span>		
 		
 	</div>
@@ -38,7 +38,7 @@ dropdown_folder: "no"
 
 
 
-<h2> Working papers and work in progress </h2>
+<h2> Working papers </h2>
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}

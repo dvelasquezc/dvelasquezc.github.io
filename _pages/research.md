@@ -10,7 +10,7 @@ show: "yes"
 
 
 
-<h2> Working papers and work in progress </h2>
+<h2> Working papers </h2>
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
