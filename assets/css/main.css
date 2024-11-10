@@ -211,28 +211,25 @@ table, th, td {
 
 /*--- Img profile ---*/
 .img_profile {
-
-	display: inline-block; 
-
+	display: flex;
+	flex-direction: row; /* Desktop: row layout */
+	align-items: flex-start; /* Align items to the top */
+	gap: 20px; /* Space between image and content */
 }
 
-.img_profile > div {
-	float: left;
-	text-align: center;
-    padding: 0em 1em 0em 0em;
+.profile-text img {
+	max-width: 150px; /* Set a reasonable width for the image */
+	border-radius: 50%; /* Optional: Make the image round */
 }
 
-.img_profile img {
-	box-sizing: border-box;
-	width: 300px;
-	height: auto;
-	margin: auto;
-	padding: 0px 0px 0px 0px;
-	box-shadow: 1px 1px 1px grey;
-	border-color: #d9d9d9;
-	border-width:1px;
-	border-style:solid;
-	display: inline-block;
+.profile-content {
+	display: flex;
+	flex-direction: column; /* Stack content on top of each other */
+	font-size: 25px;
+}
+
+.profile-link {
+	margin-top: 10px; /* Space between description and links */
 }
 
 

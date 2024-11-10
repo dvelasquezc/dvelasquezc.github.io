@@ -14,24 +14,23 @@ dropdown_folder: "no"
 
 <hr>
   
-	<div class="img_profile col-xs-12" >	
-		<div> 
-			<p><img src="/assets/images/profile4.jpg" alt="Daniel Velásquez Cabrera"></p>
-		</div> 
-		
-		<span style="font-size: 25px;">  
-			<span class="text"> <p> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography, Urban Economics and Development Economics. </p></span>
-		</span>
-		
-		<span style="font-size: 25px;">  
-			<span class="text"> <p> <a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a></p></span>
-		</span>		
-			
-		<span style="font-size: 25px;">  			
-			<span class="text"> <p> <a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a></p></span>
-		</span>		
-		
+<div class="img_profile col-xs-12">	
+	<div class="profile-text"> 
+		<img src="/assets/images/profile4.jpg" alt="Daniel Velásquez Cabrera">
+	</div> 
+	
+	<div class="profile-content">
+		<div class="profile-description">
+			<p>I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography, Urban Economics, and Development Economics.</p>
+		</div>
+		<div class="profile-link">
+			<p><a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a></p>
+		</div>
+		<div class="profile-link">
+			<p><a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a></p>
+		</div>
 	</div>
+</div>
 
 </article>
 
