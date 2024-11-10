@@ -212,24 +212,21 @@ table, th, td {
 /*--- Img profile ---*/
 .img_profile {
 	display: flex;
-	flex-direction: row; /* Desktop: row layout */
-	align-items: flex-start; /* Align items to the top */
-	gap: 20px; /* Space between image and content */
+	flex-direction: row; /* Align items in a row by default for desktop */
+	align-items: flex-start;
+	gap: 20px; /* Space between the image and text content */
 }
 
 .profile-text img {
-	max-width: 150px; /* Set a reasonable width for the image */
-	border-radius: 50%; /* Optional: Make the image round */
+	max-width: 150px; /* Adjust image size as needed */
+	border-radius: 50%; /* Optional: make the image round */
 }
 
 .profile-content {
 	display: flex;
-	flex-direction: column; /* Stack content on top of each other */
+	flex-direction: column;
+	justify-content: center; /* Vertically center the content */
 	font-size: 25px;
-}
-
-.profile-link {
-	margin-top: 10px; /* Space between description and links */
 }
 
 

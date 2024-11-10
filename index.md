@@ -23,10 +23,8 @@ dropdown_folder: "no"
 		<div class="profile-description">
 			<p>I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. My research interests lie in International Trade, Economic Geography, Urban Economics, and Development Economics.</p>
 		</div>
-		<div class="profile-link">
+		<div class="profile-links">
 			<p><a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a></p>
-		</div>
-		<div class="profile-link">
 			<p><a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a></p>
 		</div>
 	</div>
