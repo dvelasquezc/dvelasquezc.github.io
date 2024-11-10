@@ -12,7 +12,7 @@ order_paper: 2
 layout: page
 #corregir como se ponen pdfs
 ---
-<a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Forthcoming in Economic Development and Cultural Change - Latest version here] </a>
+<a href="{{ "/assets/pdfs/trade_violence.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Published at Economic Development and Cultural Change 72.2 (2024):  563-602.] </a>
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 {% if page.presented != 'no' %}
 <p><b>Presented in</b>: {{ page.presented }} </p>

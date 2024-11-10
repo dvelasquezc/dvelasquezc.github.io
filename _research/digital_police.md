@@ -11,7 +11,7 @@ funding: "no"
 order_paper: 3
 layout: page
 ---
-<a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Forthcoming in Economic Development and Cultural Change - Latest version here] </a>
+<a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Published at Economic Development and Cultural Change 71.1 (2022): 63-109.] </a>
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 {% if page.presented != 'no' %}
 <p><b>Presented in</b>: {{ page.presented }} </p>

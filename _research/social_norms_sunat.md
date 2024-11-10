@@ -11,7 +11,7 @@ funding: "no"
 order_paper: 1
 layout: page
 ---
-<a href="{{ "/assets/pdfs/taxes_rct_messages.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Forthcoming in Journal of Economic Behavior and Organization] </a>
+<a href="{{ "/assets/pdfs/taxes_rct_messages.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Published at Journal of Economic Behavior & Organization 203 (2022): 483-518.] </a>
 
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 

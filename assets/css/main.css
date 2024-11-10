@@ -218,7 +218,7 @@ table, th, td {
 }
 
 .profile-text img {
-	max-width: 200px; /* Adjust image size as needed */
+	max-width: 300px; /* Adjust image size as needed */
 }
 
 .profile-content {
@@ -481,6 +481,21 @@ label {
 #finalline {
 	display: block;
 }
+
+@media (max-width: 768px) {
+	.img_profile {
+		flex-direction: column; /* Stack items in a column for mobile */
+		align-items: center; /* Center items in mobile view */
+		text-align: center;
+	}
+	.profile-text img {
+		margin-bottom: 15px; /* Add space below the image in mobile view */
+		max-width: 150px; /* Adjust image size as needed */
+		border-radius: 50%; /* Optional: make the image round */
+	}
+}
+
+
 }
 
 
