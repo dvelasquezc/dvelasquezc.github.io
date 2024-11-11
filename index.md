@@ -26,6 +26,7 @@ dropdown_folder: "no"
 		<div class="profile-links">
 			<p><a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a></p>
 			<p><a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a></p>
+			<p><b>Contact: danielvc [at] umich [dot] edu</b></p>			
 		</div>
 	</div>
 </div>
