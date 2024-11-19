@@ -1,5 +1,5 @@
 ---
-title: 'Job Market Paper: Highways, Commuting and Trade:  Unpacking Suburban Growth (draft coming soon)'
+title: '(Job Market Paper) Highways, Commuting and Trade:  Unpacking Suburban Growth'
 pubstatus: "mimeo"
 journal: "no"
 link: "no"

@@ -64,6 +64,12 @@ show: "yes"
 				<u>{{ paper.pdf }}</u>
 			</div>
 			{% endif %}
+			
+			{% if paper.title == '(Job Market Paper) Highways, Commuting and Trade:  Unpacking Suburban Growth' %}
+			<div class = "pdf">
+				<u><a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#ff0000;"> <b>[Draft here]</b> </a></u>
+			</div>
+			{% endif %}					
 				
 			
 			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
