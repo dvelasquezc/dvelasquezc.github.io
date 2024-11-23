@@ -8,9 +8,9 @@ order: 1
 dropdown_folder: "no"
 ---
 <article>
-<header class="page-header">
+<!-- <header class="page-header">
 	<h2>Welcome to my homepage!</h2>	
-</header>
+</header> -->
 
 <hr>
   
@@ -21,7 +21,7 @@ dropdown_folder: "no"
 	
 	<div class="profile-content">
 		<div class="profile-description">
-			<p>I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. </p>
+			<p><b>Welcome to my homepage!</b> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. I am currently on the 2024-2025 job market. </p>
 		</div>
 		<div class="profile-description">
 			<p> My research interests lie in International Trade, Economic Geography, Urban Economics, and Development Economics.</p>
