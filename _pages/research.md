@@ -130,7 +130,7 @@ show: "yes"
 			</div>
 			{% endif %}						
 					
-		</ul>	
+		</ol>	
 		</div>
 	{% endif %}	
 	{% endfor %}
@@ -206,7 +206,7 @@ show: "yes"
 			</div>
 			{% endif %}						
 					
-		</ul>	
+		</ol>	
 		</div>
 	{% endif %}	
 	{% endfor %}

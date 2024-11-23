@@ -142,7 +142,7 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}						
 					
-		</ul>	
+		</ol>	
 		</div>
 	{% endif %}	
 	{% endfor %}
@@ -218,7 +218,7 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}						
 					
-		</ul>	
+		</ol>	
 		</div>
 	{% endif %}	
 	{% endfor %}
