@@ -13,13 +13,13 @@ show: "yes"
 
 <div>
 	<p>I organize my work into two main agendas: 
-	<li><b>Geography and scale externalities</b>, which examines how the long-run distribution of economic activity across space is determined by scale externalities 
-    	<b>Geography and family</b>, which investigates how family structure and gender roles affect outcomes across space.</li> </p>
+	<li><b>Geography and scale externalities</b>, which examines how the long-run distribution of economic activity across space is determined by scale externalities.</li> 
+    <li><b>Geography and family</b>, which investigates how family structure and gender roles affect outcomes across space.</li> </p>
 </div>
 
 
 <div>
-	<p>A recurring theme in my research is the study of spatial frictions (trade and commute costs), though this is not an exclusive focus. </p>
+	<p>A recurring theme in my research is the study of <b>spatial frictions</b> (trade and commute costs), though this is not an exclusive focus. </p>
 </div>
 
 
