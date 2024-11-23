@@ -99,6 +99,7 @@ dropdown_folder: "no"
 			{% endif %}		
 
 			
+			
 			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
 			<div class = "pdf">
 				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#ff0000;"> <b>[Draft here]</b> </a></u>
@@ -118,6 +119,13 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}			
 			
+			
+			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)' %}	
+			<div class = "conferences">
+				<i>In preparation for the Journal of International Economics special issue on Trade and Uneven Economic Development</i>
+			</div>			
+			{% endif %}
+						
 			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">

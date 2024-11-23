@@ -492,7 +492,6 @@ label {
 		margin-top: 10.5px; /* Add space above the image in mobile view */
 		margin-bottom: 0.5px; /* Add space below the image in mobile view */
 		max-width: 200px; /* Adjust image size as needed */
-		border-radius: 50%; /* Optional: make the image round */
 	}
 }
 

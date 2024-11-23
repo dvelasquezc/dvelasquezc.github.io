@@ -92,6 +92,13 @@ show: "yes"
 			{% endif %}			
 			
 			
+			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)' %}	
+			<div class = "conferences">
+				<i>In preparation for the Journal of International Economics special issue on Trade and Uneven Economic Development</i>
+			</div>			
+			{% endif %}			
+			
+			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
 				<i>&#42; Project financed by grant from {{ paper.funding }}</i>
