@@ -43,7 +43,7 @@ dropdown_folder: "no"
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
-	<ul>		
+	<ol>		
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "mimeo" %}
 			
@@ -143,7 +143,7 @@ dropdown_folder: "no"
 					
 	{% endif %}	
 	{% endfor %}
-	</ul>				
+	</ol>				
 </div>
 
 
@@ -153,7 +153,7 @@ dropdown_folder: "no"
 <h2> Published and accepted papers </h2>
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
-	<ul>		
+	<ol>		
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "Published" %}
 			
@@ -217,5 +217,5 @@ dropdown_folder: "no"
 					
 	{% endif %}	
 	{% endfor %}
-	</ul>				
+	</ol>				
 </div>
