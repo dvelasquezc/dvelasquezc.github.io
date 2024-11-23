@@ -94,7 +94,7 @@ dropdown_folder: "no"
 			
 			{% if paper.title == '(Job Market Paper) Highways, Commuting and Trade:  Unpacking Suburban Growth' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#ff0000;"> <b>[Draft here]</b> </a></u>
+				<u><a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: black;"> <b>[Draft here]</b> </a></u>
 			</div>
 			{% endif %}		
 
@@ -102,7 +102,7 @@ dropdown_folder: "no"
 			
 			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#ff0000;"> <b>[Draft here]</b> </a></u>
+				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: black;"> <b>[Draft here]</b> </a></u>
 			</div>
 			<div class = "conferences">
 				<i>Submitted</i>
@@ -115,7 +115,7 @@ dropdown_folder: "no"
 			
 			{% if paper.title == 'Skill Allocation and Urban Amenities in the Developing World' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/peurban03.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color:#ff0000;"> <b>[Preliminary draft here - do not cite]</b> </a></u>
+				<u><a href="{{ "/assets/pdfs/peurban03.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: black;"> <b>[Preliminary draft here - do not cite]</b> </a></u>
 			</div>
 			{% endif %}			
 			
@@ -198,7 +198,7 @@ dropdown_folder: "no"
 				
 			{% if paper.link != 'no' %}
 			<div class = "pdf">
-				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
+				<u><a href="{{ paper.link }}" target="_blank" style="color: black;> [{{ paper.journal }}] </a></u>
 			</div>
 			{% endif %}
 					
