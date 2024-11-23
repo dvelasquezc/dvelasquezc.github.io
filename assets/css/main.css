@@ -239,7 +239,7 @@ ul li {
 }
 
 .page-header-online {
-    display: none;
+    display: none !important;
 }
 
 /*--- Img profile ---*/
