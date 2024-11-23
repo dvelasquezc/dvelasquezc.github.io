@@ -9,6 +9,7 @@ dropdown_folder: "no"
 ---
 <article>
 <header class="page-header-online">
+	<hr>
 	<h2>Daniel Velásquez</h2>	
 </header> 
 
