@@ -208,11 +208,11 @@ table, th, td {
 	font-size: 0.80em
 }
 
-body ol {
+div ol {
     list-style-type: decimal !important; /* Ensures the ordered list uses Arabic numerals */
 }
 
-body ol li {
+div ol li {
     list-style-type: decimal !important;
 }
 
