@@ -98,7 +98,6 @@ show: "yes"
 			</div>			
 			{% endif %}			
 			
-			https://www.worldbank.org/en/events/2024/09/12/tradeconf
 			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
