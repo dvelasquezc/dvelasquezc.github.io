@@ -530,6 +530,7 @@ label {
        .page-header-online {
         display: block; /* or any display value appropriate for your layout */
 	font-family: 'Vollkorn', serif;
+	font-size: 1.2em
         }
 }
 
