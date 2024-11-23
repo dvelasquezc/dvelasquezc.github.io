@@ -209,16 +209,17 @@ table, th, td {
 }
 
 .numbered {
-    list-style-type: none;
+    list-style-type: none; /* Remove the default bullet */
     counter-reset: list-counter; /* Initialize the counter */
 }
   
 .numbered li {
-    counter-increment: list-counter; /* Increment the counter */
+    counter-increment: list-counter; /* Increment the counter for each list item */
 }
   
 .numbered li::before {
-    content: counter(list-counter) ". "; /* Add the counter value before each list item */
+    content: counter(list-counter) ". "; /* Insert the counter value before each item */
+    margin-right: 10px; /* Optional: add space between number and text */
 }
 
 /*--- Img profile ---*/
