@@ -8,9 +8,9 @@ order: 1
 dropdown_folder: "no"
 ---
 <article>
-<!-- <header class="page-header">
-	<h2>Welcome to my homepage!</h2>	
-</header> -->
+<header class="page-header-online">
+	<h2>Daniel Velásquez</h2>	
+</header> 
 
 <hr>
 

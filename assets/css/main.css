@@ -238,6 +238,10 @@ ul li {
     content: counter(list-counter) ". "; /* Insert the counter value before each item */
 }
 
+.page-header-online {
+    display: none;
+}
+
 /*--- Img profile ---*/
 .img_profile {
 	display: flex;
@@ -522,6 +526,11 @@ label {
 		margin-bottom: 0.5px; /* Add space below the image in mobile view */
 		max-width: 200px; /* Adjust image size as needed */
 	}
+
+       .page-header-online {
+        display: block; /* or any display value appropriate for your layout */
+	font-family: 'Vollkorn', serif;
+        }
 }
 
 
