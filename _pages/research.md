@@ -107,7 +107,7 @@ show: "yes"
 			
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
-				<i>&#42; Presented in: {{ paper.presented }}</i>
+				<!--  <i>&#42; Presented in: {{ paper.presented }}</i> -->
 			</div>
 			{% endif %}						
 					
@@ -183,7 +183,7 @@ show: "yes"
 						
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
-				<i>Presented in: {{ paper.presented }}</i>
+			<!-- 	<i>Presented in: {{ paper.presented }}</i> -->
 			</div>
 			{% endif %}						
 					

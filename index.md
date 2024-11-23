@@ -135,7 +135,7 @@ dropdown_folder: "no"
 			
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
-				<i>&#42; Presented in: {{ paper.presented }}</i>
+				<!-- <i>&#42; Presented in: {{ paper.presented }}</i> -->
 			</div>
 			{% endif %}						
 					
