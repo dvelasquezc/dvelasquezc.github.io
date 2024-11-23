@@ -7,13 +7,12 @@ dropdown_folder: "no"
 show: "yes"
 ---
 <section id="teaching-experience">
-  <h2>Teaching Experience</h2>
   <p>
-    I have nearly 10 years of teaching experience, both as an instructor and as a teaching assistant, at 
+    I have nearly <b>10 years of teaching experience</b>, both as an <b>instructor</b> and as a <b>teaching assistant</b>, at 
     <em>Universidad del Pacífico</em> (Lima, Peru) and the <em>University of Michigan</em>.
   </p>
   <p>
-    At <em>Universidad del Pacífico</em>, I served as:
+    At <b><em>Universidad del Pacífico, Lima, Perú</em></b>, I served as:
   </p>
   <ul>
     <li>
@@ -30,7 +29,7 @@ show: "yes"
               <em>Microeconomic Theory</em> as the textbook.
             </li>
             <li>
-              <em>Advanced Econometrics</em> (panel data), based on Wooldridge's 
+              <em>Advanced Econometrics</em>, based on Wooldridge's 
               <em>Econometric Analysis of Cross Section and Panel Data</em>.
             </li>
           </ul>
@@ -48,7 +47,7 @@ show: "yes"
     </li>
   </ul>
   <p>
-    At the <em>University of Michigan</em>, I was a teaching assistant for undergraduate courses:
+    At the <b><em>University of Michigan</em></b>, I was a <b>teaching assistant</b> for undergraduate courses:
   </p>
   <ul>
     <li><em>Intermediate Macroeconomics</em></li>

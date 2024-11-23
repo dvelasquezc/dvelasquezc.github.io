@@ -12,9 +12,12 @@ show: "yes"
 </div>
 
 <div>
-	<p>I organize my work into two main agendas: 
+	<p>I organize my work into <b>two main agendas</b>: 
+	<ul>
 	<li><b>Geography and scale externalities</b>, which examines how the long-run distribution of economic activity across space is determined by scale externalities.</li> 
-    <li><b>Geography and family</b>, which investigates how family structure and gender roles affect outcomes across space.</li> </p>
+    <li><b>Geography and family</b>, which investigates how family structure and gender roles affect outcomes across space.</li> 
+	</ul>
+	</p>
 </div>
 
 
