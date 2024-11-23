@@ -8,7 +8,7 @@ show: "yes"
 ---
 <section id="teaching-experience">
   <p>
-    I have nearly <b>10 years of teaching experience</b>, both as an <b>instructor</b> and as a <b>teaching assistant</b>, at 
+    I have nearly <b>10 years of teaching experience</b>, as an <b>instructor</b> or as a <b>teaching assistant</b>, at 
     <em>Universidad del Pacífico</em> (Lima, Peru) and the <em>University of Michigan</em>.
   </p>
   <p>
