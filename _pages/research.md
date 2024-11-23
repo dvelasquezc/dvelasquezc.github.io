@@ -8,11 +8,13 @@ show: "yes"
 #corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
 <div>
-	<p>I am interested in the fields of international economics, economic geography, urban economics, and development economics. </p>
+	<p>I am interested in the fields of <b>international economics</b>, <b>economic geography</b>, <b>urban economics</b>, and <b>development economics</b>. </p>
 </div>
 
 <div>
-	<p>I organize my work into two main agendas: Geography and Scale Externalities, which examines how the long-run distribution of economic activity across space is determined by scale externalities, and Geography and Family, which investigates how family structure and gender roles influence economic behavior and outcomes across space. </p>
+	<p>I organize my work into two main agendas: 
+	<li><b>Geography and scale externalities</b>, which examines how the long-run distribution of economic activity across space is determined by scale externalities 
+    	<b>Geography and family</b>, which investigates how family structure and gender roles affect outcomes across space.</li> </p>
 </div>
 
 
