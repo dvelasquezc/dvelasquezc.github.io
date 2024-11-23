@@ -219,10 +219,12 @@ dropdown_folder: "no"
 	{% endif %}	
 	{% endfor %}
 	</ol>			
+		
+</div>
+
 	<ol>
 		<li> Prueba 1	
 		</li>	
 		<li> Prueba 2	
 		</li>			
-	</ol>			
-</div>
+	</ol>	
