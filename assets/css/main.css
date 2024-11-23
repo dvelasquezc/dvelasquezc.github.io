@@ -208,13 +208,12 @@ table, th, td {
 	font-size: 0.80em
 }
 
-ol {
-    list-style-type: decimal; /* Ensures the ordered list uses Arabic numerals */
+body ol {
+    list-style-type: decimal !important; /* Ensures the ordered list uses Arabic numerals */
 }
 
-ol li {
-    list-style-type: decimal;
-     /*list-style-position: inside;*/
+body ol li {
+    list-style-type: decimal !important;
 }
 
 /*--- Img profile ---*/
