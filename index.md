@@ -159,7 +159,6 @@ dropdown_folder: "no"
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "Published" %}
 			
-		<div>
 			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
 			{% if paper.coauthors %}
 				<i>With
@@ -218,7 +217,6 @@ dropdown_folder: "no"
 			</div>
 			{% endif %}						
 					
-		</div>
 	{% endif %}	
 	{% endfor %}
 	</ul>				

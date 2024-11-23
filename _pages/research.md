@@ -37,7 +37,6 @@ show: "yes"
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "mimeo" %}
 			
-		<div>
 			<li ><a href ="{{ paper.url }}" style= "font-weight: bold;">{{ paper.title }}</a>
 			{% if paper.coauthors %}
 				<i> (with
@@ -130,7 +129,6 @@ show: "yes"
 			</div>
 			{% endif %}						
 					
-		</div>
 	{% endif %}	
 	{% endfor %}
 	</ol>		
