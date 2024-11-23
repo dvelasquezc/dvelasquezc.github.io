@@ -208,8 +208,12 @@ table, th, td {
 	font-size: 0.80em
 }
 
+ol {
+    list-style-type: decimal;
+}
+
 .numbered {
-    list-style-type: none; /* Remove the default bullet */
+    list-style-type: decimal; /* Remove the default bullet */
     counter-reset: list-counter; /* Initialize the counter */
 }
   
@@ -219,7 +223,6 @@ table, th, td {
   
 .numbered li::before {
     content: counter(list-counter) ". "; /* Insert the counter value before each item */
-    margin-right: 10px; /* Optional: add space between number and text */
 }
 
 /*--- Img profile ---*/
