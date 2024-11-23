@@ -213,8 +213,8 @@ ol {
 }
 
 .numbered {
-    list-style-type: decimal; /* Remove the default bullet */
-    counter-reset: list-counter; /* Initialize the counter */
+    list-style-type: none/* Remove the default bullet */
+    counter-reset: list-counter 0; /* Initialize the counter at 0 (this ensures it starts at 1) */
 }
   
 .numbered li {
