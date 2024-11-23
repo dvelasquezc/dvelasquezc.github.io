@@ -213,11 +213,16 @@ ol {
 }
 
 ol li {
-    margin-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+ol::marker {
+    font-family: "Georgia", serif; /* Font for the numbering */
+    font-size: 1.0em; /* Optional for emphasis */
 }
 
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .numbered {
