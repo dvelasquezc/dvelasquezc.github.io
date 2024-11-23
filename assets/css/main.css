@@ -208,8 +208,8 @@ table, th, td {
 	font-size: 0.80em
 }
 
-.ol {
-    list-style-type: decimal; /* Default to numbered lists */
+ol {
+    list-style-type: decimal; /* Use standard numbers */
 }
 
 /*--- Img profile ---*/
