@@ -41,11 +41,11 @@ dropdown_folder: "no"
 
 <h2> Working papers </h2>
 
+<div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
-	<ol style="list-style-type: decimal;">		
+	<ol style="list-style-type: decimal;" start="1">		
 		{% for paper in research_sorted %}
 			{% if paper.pubstatus == "mimeo" %}
-					
 					<li><b><a href ="{{ paper.url }}">{{ paper.title }}</a></b>
 					{% if paper.coauthors %}
 						<i> (with
@@ -143,6 +143,7 @@ dropdown_folder: "no"
 			{% endif %}	
 		{% endfor %}
 	</ol>				
+</div>
 
 
 
