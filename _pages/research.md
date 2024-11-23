@@ -7,6 +7,9 @@ dropdown_folder: "no"
 show: "yes"
 #corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
+
+<h2> Research agenda </h2>
+
 <div>
 	<p>I am interested in the fields of <b>international economics</b>, <b>economic geography</b>, <b>urban economics</b>, and <b>development economics</b>. </p>
 </div>

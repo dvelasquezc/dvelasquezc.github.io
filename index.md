@@ -12,7 +12,7 @@ dropdown_folder: "no"
 	<h2>Welcome to my homepage!</h2>	
 </header> -->
 
-<hr>
+
   
 <div class="img_profile col-xs-12">	
 	<div class="profile-text"> 
@@ -36,7 +36,7 @@ dropdown_folder: "no"
 </article>
 
 
-
+<hr>
 
 <h2> Working papers </h2>
 
