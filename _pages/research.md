@@ -94,10 +94,11 @@ show: "yes"
 			
 			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)' %}	
 			<div class = "conferences">
-				<i>In preparation for the Journal of International Economics special issue on Trade and Uneven Economic Development</i>
+				<i>In preparation for the <a href="https://www.worldbank.org/en/events/2024/09/12/tradeconf" target="_blank"> Journal of International Economics special issue on Trade and Uneven Economic Development </a> </i>
 			</div>			
 			{% endif %}			
 			
+			https://www.worldbank.org/en/events/2024/09/12/tradeconf
 			
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
