@@ -94,7 +94,7 @@ dropdown_folder: "no"
 			
 			{% if paper.title == '(Job Market Paper) Highways, Commuting and Trade:  Unpacking Suburban Growth' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: black;"> [Draft here] </a></u>
+				<a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: #333333;"> [Draft here] </a>
 			</div>
 			{% endif %}		
 
@@ -102,7 +102,7 @@ dropdown_folder: "no"
 			
 			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: black;"> [Draft here] </a></u>
+				<a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: #333333;"> [Draft here] </a>
 			</div>
 			<div class = "conferences">
 				<i>Submitted</i>
@@ -115,14 +115,14 @@ dropdown_folder: "no"
 			
 			{% if paper.title == 'Skill Allocation and Urban Amenities in the Developing World' %}
 			<div class = "pdf">
-				<u><a href="{{ "/assets/pdfs/peurban03.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: black;"> [Preliminary draft here - do not cite] </a></u>
+				<a href="{{ "/assets/pdfs/peurban03.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="color: #333333;"> [Preliminary draft here - do not cite] </a>
 			</div>
 			{% endif %}			
 			
 			
 			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)' %}	
 			<div class = "conferences">
-				<i>In preparation for the <b><a href="https://www.worldbank.org/en/events/2024/09/12/tradeconf" target="_blank" style="color: black;"> Journal of International Economics special issue on Trade and Uneven Economic Development </a></b> </i>
+				<i>In preparation for the <b><a href="https://www.worldbank.org/en/events/2024/09/12/tradeconf" target="_blank" style="color: #333333;"> Journal of International Economics special issue on Trade and Uneven Economic Development </a></b> </i>
 			</div>			
 			{% endif %}
 						
@@ -198,7 +198,7 @@ dropdown_folder: "no"
 				
 			{% if paper.link != 'no' %}
 			<div class = "pdf">
-				<u><a href="{{ paper.link }}" target="_blank" style="color: black;"> [{{ paper.journal }}] </a></u>
+				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
 			</div>
 			{% endif %}
 					
