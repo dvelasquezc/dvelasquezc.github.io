@@ -33,11 +33,11 @@ show: "yes"
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
+	<ul class="numbered">		
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "mimeo" %}
 			
 		<div>
-		<ul class="numbered">	
 			<li ><a href ="{{ paper.url }}" style= "font-weight: bold;">{{ paper.title }}</a>
 			{% if paper.coauthors %}
 				<i> (with
@@ -130,10 +130,10 @@ show: "yes"
 			</div>
 			{% endif %}						
 					
-		</ul>	
 		</div>
 	{% endif %}	
 	{% endfor %}
+	</ul>		
 </div>
 
 
@@ -143,11 +143,11 @@ show: "yes"
 <h2> Published and accepted papers </h2>
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
+	<ul class="numbered">		
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "Published" %}
 			
 		<div>
-		<ul class="numbered">	
 			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
 			{% if paper.coauthors %}
 				<i>With
@@ -206,9 +206,9 @@ show: "yes"
 			</div>
 			{% endif %}						
 					
-		</ul>	
 		</div>
 	{% endif %}	
 	{% endfor %}
+	</ul>		
 </div>
 
