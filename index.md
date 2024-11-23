@@ -47,8 +47,7 @@ dropdown_folder: "no"
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "mimeo" %}
 			
-		<div>
-			<li ><a href ="{{ paper.url }}" style= "font-weight: bold;">{{ paper.title }}</a>
+			<li><b><a href ="{{ paper.url }}">{{ paper.title }}</a></b>
 			{% if paper.coauthors %}
 				<i> (with
 				{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
@@ -85,7 +84,7 @@ dropdown_folder: "no"
 					{% endif %}
 				{% endfor %})
 				</i>
-			{% endif %}</li>
+			{% endif %}
 			
 			
 			{% if paper.pdf != 'no' %}
@@ -140,9 +139,8 @@ dropdown_folder: "no"
 			<div class ="conferences">
 				<!-- <i>&#42; Presented in: {{ paper.presented }}</i> -->
 			</div>
-			{% endif %}						
+			{% endif %}		</li>				
 					
-		</div>
 	{% endif %}	
 	{% endfor %}
 	</ul>				
@@ -159,7 +157,7 @@ dropdown_folder: "no"
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "Published" %}
 			
-			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
+			<li><b><a href ="{{ paper.url }}">{{ paper.title }}</a></b>
 			{% if paper.coauthors %}
 				<i>With
 				{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
@@ -215,7 +213,7 @@ dropdown_folder: "no"
 			<div class ="conferences">
 				<i>Presented in: {{ paper.presented }}</i>
 			</div>
-			{% endif %}						
+			{% endif %}		</li>				
 					
 	{% endif %}	
 	{% endfor %}
