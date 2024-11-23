@@ -47,7 +47,7 @@ dropdown_folder: "no"
 	{% if paper.pubstatus == "mimeo" %}
 			
 		<div>
-		<ul>	
+		<ol>	
 			<li ><a href ="{{ paper.url }}" style= "font-weight: bold;">{{ paper.title }}</a>
 			{% if paper.coauthors %}
 				<i> (with
@@ -159,7 +159,7 @@ dropdown_folder: "no"
 	{% if paper.pubstatus == "Published" %}
 			
 		<div>
-		<ul>	
+		<ol>	
 			<li style= "font-weight: bold;"><a href ="{{ paper.url }}">{{ paper.title }}</a></li>
 			{% if paper.coauthors %}
 				<i>With
