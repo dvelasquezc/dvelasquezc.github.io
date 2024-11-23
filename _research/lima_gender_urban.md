@@ -12,7 +12,7 @@ layout: page
 #corregir como se ponen pdfs
 ---
 
-<a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [New draft here] </a>
+<a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 

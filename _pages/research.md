@@ -8,8 +8,18 @@ show: "yes"
 #corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
 <div>
-	I am interested in the fields of international economics, economic geography, urban economics, and development economics. I organize my work into two main agendas: Geography and Scale Externalities, which examines how the long-run distribution of economic activity across space is determined by scale externalities, and Geography and Family, which investigates how family structure and gender roles influence economic behavior and outcomes across space. A recurring theme in my research is the study of spatial frictions (trade and commute costs), though this is not an exclusive focus.
+	I am interested in the fields of international economics, economic geography, urban economics, and development economics. 
 </div>
+
+<div>
+	I organize my work into two main agendas: Geography and Scale Externalities, which examines how the long-run distribution of economic activity across space is determined by scale externalities, and Geography and Family, which investigates how family structure and gender roles influence economic behavior and outcomes across space. A recurring theme in my research is the study of spatial frictions (trade and commute costs), though this is not an exclusive focus.
+</div>
+
+
+<div>
+	A recurring theme in my research is the study of spatial frictions (trade and commute costs), though this is not an exclusive focus.
+</div>
+
 
 <h2> Working papers </h2>
 
