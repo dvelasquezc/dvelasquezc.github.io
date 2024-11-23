@@ -216,7 +216,7 @@ ol li {
     margin-bottom: 14px;
 }
 
-ol::marker {
+ol li::marker {
     font-family: "Georgia", serif; /* Font for the numbering */
     font-size: 1.0em; /* Optional for emphasis */
 }
