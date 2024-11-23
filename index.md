@@ -222,9 +222,12 @@ dropdown_folder: "no"
 		
 </div>
 
+<span>
 	<ol>
 		<li> Prueba 1	
 		</li>	
 		<li> Prueba 2	
 		</li>			
 	</ol>	
+</span>
+	
