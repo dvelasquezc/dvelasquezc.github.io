@@ -208,12 +208,17 @@ table, th, td {
 	font-size: 0.80em
 }
 
-div ol {
-    list-style-type: decimal !important; /* Ensures the ordered list uses Arabic numerals */
+.numbered {
+    list-style-type: none;
+    counter-reset: list-counter; /* Initialize the counter */
 }
-
-div ol li {
-    list-style-type: decimal !important;
+  
+.numbered li {
+    counter-increment: list-counter; /* Increment the counter */
+}
+  
+.numbered li::before {
+    content: counter(list-counter) ". "; /* Add the counter value before each list item */
 }
 
 /*--- Img profile ---*/
