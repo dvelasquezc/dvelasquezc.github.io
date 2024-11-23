@@ -41,7 +41,6 @@ dropdown_folder: "no"
 
 <h2> Working papers </h2>
 
-<div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
 	<ol style="list-style-type: decimal;">		
 		{% for paper in research_sorted %}
@@ -144,7 +143,6 @@ dropdown_folder: "no"
 			{% endif %}	
 		{% endfor %}
 	</ol>				
-</div>
 
 
 
