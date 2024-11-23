@@ -33,7 +33,7 @@ show: "yes"
 
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
-	<ol>		
+	<ol start="1">		
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "mimeo" %}
 			
@@ -141,7 +141,7 @@ show: "yes"
 <h2> Published and accepted papers </h2>
 <div>
 	{% assign research_sorted = site.research | sort: "order_paper" %}
-	<ol>		
+	<ol start="1">		
 	{% for paper in research_sorted %}
 	{% if paper.pubstatus == "Published" %}
 			
