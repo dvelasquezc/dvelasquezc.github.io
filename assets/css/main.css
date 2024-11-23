@@ -214,13 +214,13 @@ ol {
 
 .numbered {
     list-style-type: none; /* Remove the default bullet */
-    counter-reset: list-counter; /* Initialize the counter at 0 (this ensures it starts at 1) */
+    counter-reset: list-counter; /* Initialize the counter at the start */
 }
-  
+
 .numbered li {
     counter-increment: list-counter; /* Increment the counter for each list item */
 }
-  
+
 .numbered li::before {
     content: counter(list-counter) ". "; /* Insert the counter value before each item */
 }
