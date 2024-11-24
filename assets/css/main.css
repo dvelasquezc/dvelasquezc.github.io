@@ -240,8 +240,6 @@ ul li {
 
 .page-header-online {
     display: none !important;
-    visibility: hidden; /* Backup option */
-    opacity: 0; /* Another safeguard */
 }
 
 /*--- Img profile ---*/
