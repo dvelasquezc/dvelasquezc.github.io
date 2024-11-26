@@ -12,14 +12,14 @@ show: "yes"
     <em>Universidad del Pacífico</em> (Lima, Peru) and the <em>University of Michigan</em>.
   </p>
   <p>
-    At <b><em>Universidad del Pacífico, Lima, Perú</em></b>, I served as:
+    At <b><em>Universidad del Pacífico</em></b>, I served as:
   </p>
   <ul>
     <li>
-      <strong>Instructor</strong> for <em>Econometrics II</em> (time-series and panel data) at the undergraduate level.
+      <b>Instructor</b> for <em>Econometrics II</em> (time-series and panel data) at the undergraduate level.
     </li>
     <li>
-      <strong>Teaching Assistant</strong> for the following courses:
+      <b>Teaching assistant</b> for the following courses:
       <ul>
         <li>
           Graduate courses:
