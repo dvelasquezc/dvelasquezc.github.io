@@ -7,7 +7,6 @@ dropdown_folder: "no"
 show: "yes"
 #corregir linea 62-64 donde puse manualmente el link al paper de trade violence
 ---
-
 <h2> Interests and agenda </h2>
 
 <div>
@@ -110,7 +109,10 @@ show: "yes"
 			{% endif %}			
 			
 			
-			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)' %}	
+			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation' %}	
+			<div class = "pdf">
+				<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
+			</div>			
 			<div class = "conferences">
 				<i>In preparation for the <b><a href="https://www.worldbank.org/en/events/2024/09/12/tradeconf" target="_blank" style="color: black;"> Journal of International Economics special issue on Trade and Uneven Economic Development </a></b> </i>
 			</div>			

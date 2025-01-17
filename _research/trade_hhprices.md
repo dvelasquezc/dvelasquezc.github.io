@@ -1,5 +1,5 @@
 ---
-title: 'Trade in Appliances, Household Production, and Labor Force Participation (draft coming soon)'
+title: 'Trade in Appliances, Household Production, and Labor Force Participation'
 coauthors: Pamela Medina, Sebastian Sotelo
 pubstatus: "mimeo"
 journal: "no"
@@ -12,6 +12,8 @@ order_paper: 4
 layout: page
 #corregir como se ponen pdfs
 ---
+<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
+
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
 
 {% if page.presented != 'no' %}
