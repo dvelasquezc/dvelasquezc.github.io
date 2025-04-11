@@ -23,7 +23,7 @@ dropdown_folder: "no"
 	
 	<div class="profile-content">
 		<div class="profile-description">
-			<p><b>Welcome to my homepage!</b> I am a Ph.D. Candidate in Economics at the University of Michigan, originally from Lima, Peru. In July 2025, I will join Claremont McKenna College as an Assistant Professor of Economics. </p>
+			<p><b>Welcome to my homepage!</b> I am a Ph.D. Candidate in Economics at the University of Michigan. In July 2025, I will join Claremont McKenna College as an Assistant Professor of Economics. </p>
 		</div>
 		<div class="profile-description">
 			<p> My research interests lie in International Trade, Economic Geography, Urban Economics, and Development Economics.</p>
