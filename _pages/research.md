@@ -114,7 +114,7 @@ show: "yes"
 				<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 			</div>			
 			<div class = "conferences">
-				<i>In preparation for the <b><a href="https://www.worldbank.org/en/events/2024/09/12/tradeconf" target="_blank" style="color: black;"> Journal of International Economics special issue on Trade and Uneven Economic Development </a></b> </i>
+				 <i> Revision requested at the <i>Journal of International Economics</i>
 			</div>			
 			{% endif %}			
 			
