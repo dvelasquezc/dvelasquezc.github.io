@@ -1,8 +1,8 @@
 ---
 title: 'Trade in Appliances, Household Production, and Labor Force Participation'
 coauthors: Pamela Medina, Sebastian Sotelo
-pubstatus: "mimeo"
-journal: "no"
+pubstatus: "Revision requested"
+journal: "Journal of International Economics"
 link: "no"
 presented: "WB and JIE&#39;s Trade and Uneven Development Conference, 2023 Seminario de Microeconomia Aplicada (MAP), 2022 Annual Meeting of the LACEA-LAMES"
 pdf: "no"
@@ -12,6 +12,8 @@ order_paper: 4
 layout: page
 #corregir como se ponen pdfs
 ---
+<i> [{{ page.pubstatus }} at <b> {{ page.journal }} </b>] </i>
+
 <a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 
 <p><b>Co-author(s)</b>: {{ page.coauthors }} </p>
