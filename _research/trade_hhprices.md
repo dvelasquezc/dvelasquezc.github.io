@@ -12,7 +12,7 @@ order_paper: 4
 layout: page
 #corregir como se ponen pdfs
 ---
-<i> [{{ page.pubstatus }} at <b> {{ page.journal }} </b>] </i>
+<i> [{{ page.pubstatus }} at <b> {{ page.journal }}</b>] </i>
 
 <a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 
