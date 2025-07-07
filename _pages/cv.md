@@ -9,4 +9,4 @@ show: "yes"
 <div>
 	<u><a href="{{ "/assets/pdfs/CV_JM_Daniel_Velasquez.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Download here] </a></u>
 <div>
-<iframe src="//www.dropbox.com/s/r4uegusqfsqnrni/CV_daniel_vc_2021.pdf?raw=1" width="100%" height="800"></iframe>
+<iframe src="https://www.dropbox.com/scl/fi/bbsrlk5k3oyvvfh1crg6s/CV_JM_Daniel_Velasquez.pdf?raw=1" width="100%" height="800"></iframe>
