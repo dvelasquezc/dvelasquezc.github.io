@@ -98,6 +98,9 @@ dropdown_folder: "no"
 						<div class = "pdf">
 							<a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 						</div>
+						<div class = "conferences">
+							<i>&#42; Best Paper by a Junior Researcher, The International Transportation Economics Association, Evanston 2025</i>
+						</div>							
 						{% endif %}		
 
 						
