@@ -143,7 +143,6 @@ dropdown_folder: "no"
 						<div class = "pdf">
 							<a href="{{ "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5408984" }}" target="_blank"> [SSRN] </a>
 						</div>						
-						{% endif %}		
 						<div class = "conferences">
 							<i>Submitted</i>
 						</div>								
