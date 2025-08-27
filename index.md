@@ -138,11 +138,8 @@ dropdown_folder: "no"
 						
 						{% if paper.title == 'Initial Conditions and the Big Push' %}
 						<div class = "pdf">
-							<a href="{{ "/assets/pdfs/bigpush_wwii.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
-						</div>
-						<div class = "pdf">
-							<a href="{{ "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5408984" }}" target="_blank"> [SSRN] </a>
-						</div>						
+							<a href="{{ "/assets/pdfs/bigpush_wwii.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a> <a href="{{ "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5408984" }}" target="_blank"> [SSRN] </a>
+						</div>				
 						<div class = "conferences">
 							<i>Submitted</i>
 						</div>								
