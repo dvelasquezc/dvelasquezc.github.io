@@ -119,7 +119,21 @@ show: "yes"
 			<div class = "conferences">
 				<i> Revision requested at the <b>Journal of International Economics</b></i>
 			</div>			
-			{% endif %}			
+			{% endif %}		
+
+
+			{% if paper.title == 'Initial Conditions and the Big Push' %}
+			<div class = "pdf">
+				<a href="{{ "/assets/pdfs/bigpush_wwii.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
+			</div>
+			<div class = "pdf">
+				<a href="{{ "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5408984" }}" target="_blank"> [SSRN] </a>
+			</div>						
+			{% endif %}		
+			<div class = "conferences">
+				<i>Submitted</i>
+			</div>								
+			{% endif %}									
 			
 			
 			{% if  paper.funding  != 'no' %}
