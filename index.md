@@ -23,10 +23,10 @@ dropdown_folder: "no"
 	
 	<div class="profile-content">
 		<div class="profile-description">
-			<p><b>Welcome to my homepage!</b> I am a Ph.D. Candidate in Economics at the University of Michigan. I will join Claremont McKenna College as an Assistant Professor of Economics in July 2025. </p>
+			<p><b>Welcome to my homepage!</b> I am an Assistant Professor of Economics at Claremont McKenna College. </p>
 		</div>
 		<div class="profile-description">
-			<p> My research interests lie in International Trade, Economic Geography, Urban Economics, and Development Economics.</p>
+			<p> I study economic development using historical evidence from developed economies and contemporary data from developing countries. My work focuses, though not exclusively, on geographic and coordination frictions, including how transport and market access shape outcomes.</p>
 		</div>		
 		<div class="profile-links">
 			<p><a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a>.   <a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a>.</p>
