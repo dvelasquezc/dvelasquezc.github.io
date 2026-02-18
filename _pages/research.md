@@ -117,7 +117,7 @@ show: "yes"
 				<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 			</div>			
 			<div class = "conferences">
-				<i> Revision requested at the <b>Journal of International Economics</b></i>
+				<i> Accepted at the <b>Journal of International Economics</b></i>
 			</div>			
 			{% endif %}		
 

@@ -131,7 +131,7 @@ dropdown_folder: "no"
 						</div>			
 						
 						<div class ="conferences">
-							<i>Revision requested at the <b>Journal of International Economics</b></i>
+							<i>Accepted at the <b>Journal of International Economics</b></i>
 						</div>	
 						{% endif %}	
 						
