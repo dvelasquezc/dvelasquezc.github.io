@@ -14,7 +14,8 @@
 .webhead {
 	margin: auto;
 	width: 72%;
-	padding: 10px 5px;
+	padding: 12px 5px;
+	border-bottom: 1px solid #e0e0e0;
 }
 
 #menu {
@@ -109,9 +110,12 @@ label {
 	display: block;
 	color: #1a1a2e;
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 600;
 	font-family: 'Headland One', serif;
 	font-size: 1.05em;
+	background-color: rgba(0,0,0,0.05);
+	padding: 6px 12px;
+	border-radius: 4px;
 }
 
 #menu #name a.active  {
@@ -121,6 +125,7 @@ label {
 #menu .mylink a.active  {
 	color: #0d6e6e;
 	font-weight: 600;
+	background-color: rgba(78,205,196,0.2);
 }
 
 #menu a span {
@@ -165,6 +170,7 @@ label {
 
 #menu .mylink a:hover {
 	color: #0d6e6e;
+	background-color: rgba(78,205,196,0.15);
 }
 
 
@@ -319,10 +325,12 @@ ul li {
 }
 
 .institution-logo {
-	height: 22px;
-	width: auto;
+	height: 18px !important;
+	max-height: 18px !important;
+	width: auto !important;
 	vertical-align: middle;
 	margin-right: 8px;
+	object-fit: contain;
 }
 
 .profile-links {
