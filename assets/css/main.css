@@ -26,6 +26,7 @@ html, body {
 	padding: 12px 5px;
 	background-color: #f0f0f0;
 	border-bottom: 2px solid #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.08);
 }
 
 #menu {
@@ -284,7 +285,7 @@ ul li {
 .img_profile {
 	display: flex;
 	flex-direction: row; /* Align items in a row by default for desktop */
-	align-items: flex-start;
+	align-items: center; /* Center all items vertically */
 	justify-content: space-between; /* Push logos to right */
 	gap: 30px; /* Space between the image and text content */
 }
@@ -354,13 +355,13 @@ ul li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 15px;
+	gap: 10px;
 	flex-shrink: 0;
-	margin-top: 2.5em;
+	align-self: center;
 }
 
 .profile-logos img {
-	height: 64px;
+	height: 50px;
 	width: auto;
 	opacity: 0.85;
 }
