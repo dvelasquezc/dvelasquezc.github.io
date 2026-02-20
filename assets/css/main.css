@@ -290,7 +290,7 @@ ul li {
 }
 
 .profile-text img {
-	max-width: 220px;
+	max-width: 200px;
 	border-radius: 4px;
 }
 
@@ -307,6 +307,7 @@ ul li {
 	flex-direction: column;
 	justify-content: flex-start;
 	font-size: 1em;
+	margin-top: 0.5em;
 }
 
 /* Profile name styling */
@@ -366,7 +367,7 @@ ul li {
 }
 
 .profile-logos img {
-	height: 90px;
+	height: 75px;
 	width: auto;
 	opacity: 0.85;
 }
