@@ -24,7 +24,8 @@ dropdown_folder: "no"
 	<div class="profile-content">
 		<div class="profile-name">Daniel Velasquez-Cabrera</div>
 		<div class="profile-title">Assistant Professor of Economics</div>
-		<div class="profile-institution">Robert Day School of Economics · Claremont McKenna College</div>
+		<div class="profile-institution"><img src="/assets/images/cmc-logo.png" class="institution-logo" alt="CMC">Robert Day School of Economics · Claremont McKenna College</div>
+		<div class="profile-education"><img src="/assets/images/umich-logo.png" class="institution-logo" alt="U-M">Ph.D., University of Michigan</div>
 		<div class="profile-links">
 			<a href="mailto:dvelasquez@cmc.edu">dvelasquez@cmc.edu</a> ·
 			<a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a> ·

@@ -42,6 +42,15 @@ label {
 	justify-content: space-between;
 }
 
+/* Nav links wrapper with subtle background */
+#menu .nav-links {
+	display: flex;
+	align-items: center;
+	background-color: rgba(0,0,0,0.04);
+	padding: 8px 16px;
+	border-radius: 6px;
+}
+
 #menu ul ul{ /* Menu's second level */
 	display: none;
 	text-align: left;
@@ -100,7 +109,7 @@ label {
 	display: block;
 	color: #1a1a2e;
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: 500;
 	font-family: 'Headland One', serif;
 	font-size: 1.05em;
 }
@@ -300,7 +309,20 @@ ul li {
 .profile-institution {
 	font-size: 1em;
 	color: #666;
+	margin-bottom: 0.3em;
+}
+
+.profile-education {
+	font-size: 0.95em;
+	color: #666;
 	margin-bottom: 1em;
+}
+
+.institution-logo {
+	height: 22px;
+	width: auto;
+	vertical-align: middle;
+	margin-right: 8px;
 }
 
 .profile-links {
