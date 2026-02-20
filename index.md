@@ -10,7 +10,7 @@ dropdown_folder: "no"
 <article>
 <header class="page-header-online">
 	<hr>
-	<h2>Daniel Velásquez</h2>	
+	<h2>Daniel Velasquez-Cabrera</h2>
 </header> 
 
 <hr>
@@ -18,7 +18,7 @@ dropdown_folder: "no"
   
 <div class="img_profile col-xs-12">	
 	<div class="profile-text"> 
-		<img src="/assets/images/profile4.jpg" alt="Daniel Velásquez Cabrera">
+		<img src="/assets/images/profile4.jpg" alt="Daniel Velasquez-Cabrera">
 	</div> 
 	
 	<div class="profile-content">

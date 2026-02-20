@@ -1,12 +1,12 @@
 
 /* --------------------------------------------------------------------------- DESKTOP VIEW ----------------------------------------------------------*/
 @media screen and (max-width: 9999px){
-	
-	
+
+
 
 /* -------------------------     General   ------------------------*/
 .backgroundcolor {
-	background-color: #f2f2f2
+	background-color: #fafaf8
 }
 
 /* -------------------------  MENU   ------------------------*/
@@ -18,8 +18,7 @@
 }
 
 #menu {
-    background-color: #8c8c8c; /*#737373; #333*/ 
-	box-shadow: 2px 2px 2px #4d4d4d;
+    background-color: #1a1a2e;
 	padding: 0px;
     margin: 0;
 	overflow: hidden;
@@ -36,9 +35,9 @@ label {
 }
 
 #menu ul { /* Menu's first level */
-	background-color: 8c8c8c;
+	background-color: #1a1a2e;
 	list-style: none;
-	display: flex;	
+	display: flex;
 }
 
 #menu ul ul{ /* Menu's second level */
@@ -49,13 +48,13 @@ label {
 }
 
 #menu ul ul a {
-	padding: 8px 10px 3px 10px;	
+	padding: 8px 10px 3px 10px;
 }
 
 
 #menu #name  { /*  Formating my name*/
 	margin: 0px 10px 0px -15px;
-	padding: 5px 70px 0px 5px;	
+	padding: 5px 70px 0px 5px;
 }
 
 #menu .mylink  { /*  Formating other elements of the first level*/
@@ -67,54 +66,55 @@ label {
 #menu  a {
 	display: block;
 	color: #f2f2f2;
-	text-decoration: none; 
+	text-decoration: none;
 	text-align: left;
 	font-weight: bold;
 	font-family: 'Headland One', serif;
 	font-size: 1.20em;
 	position: relative;
+	transition: color 0.2s ease;
 }
-	
+
 #menu #name a {
 	display: block;
 	color: #f2f2f2;
-	text-decoration: none; 
+	text-decoration: none;
 	font-weight: bold;
 	font-family: 'Headland One', serif;
 	font-size: 1.30em;
+	letter-spacing: 0.02em;
 }
 
 #menu .mylink a {
 	display: block;
 	color: #f2f2f2;
-	text-decoration: none; 
+	text-decoration: none;
 	font-weight: bold;
 	font-family: 'Headland One', serif;
 	font-size: 1.20em;
 }
 
 #menu #name a.active  {
-    color: #800000 /*#800000;*/
+    color: #4ecdc4;
 	}
 
 #menu .mylink a.active  {
-    color: #800000 /*#800000;*/
+    color: #4ecdc4;
 }
 
 #menu a span {
 	font-size: 0.9em;
 	margin: -0.4em
 }
-	
-#menu ul li:hover + .dropdown-content, #menu .dropdown-content:hover   { 
+
+#menu ul li:hover + .dropdown-content, #menu .dropdown-content:hover   {
 	display:block;
 	position: absolute;
-	background-color: #737373;
+	background-color: #2d2d44;
     min-width: 100px;
-    box-shadow: 2px 2px 2px grey;
     z-index: 1;
 	text-align: left;
-	opacity: 0.90;
+	opacity: 0.95;
 	margin: 30px 0px 0px 500px;
 }
 
@@ -128,7 +128,7 @@ label {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #f2f2f2;
+	background-color: #4ecdc4;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -154,30 +154,23 @@ label {
 .webcontent {
 	margin: auto;
 	width: 70%;
-	padding: 20px;
+	padding: 40px 50px;
 	background-color: #ffffff;
-	border-color: #d9d9d9;
-	box-shadow: 2px 2px 2px grey;
 	color: #262626;
 	font-family: 'Vollkorn', serif;
-	font-size: 1.15em
+	font-size: 1.1em;
+	line-height: 1.65;
 }
 
 .webcontent a {
-	color: #0047b3;
+	color: #0d6e6e;
 	text-decoration: none;
-}
-
-@keyframes change_color {
-	from {color: #0047b3}
-	to {color: #800000}
+	transition: all 0.2s ease;
 }
 
 .webcontent a:hover {
-	animation-name: change_color;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;  
-
+	color: #0a5555;
+	text-decoration: underline;
 }
 
 .text p {
@@ -197,11 +190,11 @@ table, th, td {
 	display: inline;
 	width: 40%;
 	padding: 0px 10px 5px 1px
-	
+
 }
 
 #header_research {
-	
+
 }
 
 .conferences {
@@ -213,7 +206,7 @@ ol {
 }
 
 ol li {
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 ol li::marker {
@@ -222,7 +215,7 @@ ol li::marker {
 }
 
 ul li {
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .numbered {
@@ -247,30 +240,30 @@ ul li {
 	display: flex;
 	flex-direction: row; /* Align items in a row by default for desktop */
 	align-items: flex-start;
-	gap: 20px; /* Space between the image and text content */
+	gap: 30px; /* Space between the image and text content */
 }
 
 .profile-text img {
-	max-width: 265px; /* Adjust image size as needed */
+	max-width: 240px; /* Slightly smaller, cleaner */
+	border-radius: 4px;
 }
 
 .profile-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center; /* Vertically center the content */
-	font-size: 25px;
+	font-size: 1em;
 }
 
 
 /*-- img left --*/
 .img_left {
 	display: inline-block;
-	box-shadow: 1px 1px 1px grey;
-	border-color: #d9d9d9;
-	border-width:1px;
-	border-style:solid; 
+	border-color: #e0e0e0;
+	border-width: 1px;
+	border-style: solid;
 	padding: 0 10px 0 10px;
-	background-color: #f2f2f2; 	
+	background-color: #fafaf8;
 }
 
 
@@ -285,13 +278,13 @@ ul li {
   top: 10;
   bottom: 0;
   right: 10;
-  left: 10;  
+  left: 10;
   font-size: smaller;
   font-style: italic;
   text-decoration: underline;
 }
 
-.img_left .title2 {  
+.img_left .title2 {
   font-size: smaller;
   font-style: italic;
 }
@@ -315,12 +308,11 @@ ul li {
 /* img right */
 .img_right {
 	display: inline-block;
-	box-shadow: 1px 1px 1px grey;
-	border-color: #d9d9d9;
-	border-width:1px;
-	border-style:solid; 
+	border-color: #e0e0e0;
+	border-width: 1px;
+	border-style: solid;
 	padding: 0 10px 0 10px;
-	background-color: #f2f2f2; 	
+	background-color: #fafaf8;
 
 }
 
@@ -335,13 +327,13 @@ ul li {
   top: 10;
   bottom: 0;
   right: 10;
-  left: 10;  
+  left: 10;
   font-size: smaller;
   font-style: italic;
   text-decoration: underline;
 }
 
-.img_right .title2 {  
+.img_right .title2 {
   font-size: smaller;
   font-style: italic;
 }
@@ -359,6 +351,7 @@ ul li {
 	padding: 5px 20px 0px 0px;
 	display: inline-block
 }
+
 /*-------------------- Social buttons -----------------------*/
 
 #finalline {
@@ -367,7 +360,7 @@ ul li {
 
 .socialbuttons {
   margin: 0 auto 0 auto;
-  
+
 }
 
 .socialbuttons ul {
@@ -376,18 +369,23 @@ ul li {
 }
 
 .socialbuttons ul li {
-  display: inline; 
+  display: inline;
+  margin: 0 8px;
 }
 
 .socialbuttons ul li a {
   text-decoration: none;
-  
+  transition: opacity 0.2s ease;
+}
+
+.socialbuttons ul li a:hover {
+  opacity: 0.7;
 }
 
 .socialbuttons ul li svg {
-  width: 30px;
-  height: 30px;
-  
+  width: 26px;
+  height: 26px;
+
 }
 
 .socialbuttons .twitter svg {
@@ -403,13 +401,31 @@ ul li {
 }
 
 #footer {
-	/*margin: auto;
-	background-color: #cccccc;
-	width: 55%;
-	padding: 10px 0px 10px 0px;
-	box-shadow: 2px 2px 2px #4d4d4d;
-	font-family: 'Palatino', Verdana, serif;
-	color: #ffffff;*/
+	padding: 20px 0;
+}
+
+/* Section headers */
+h2 {
+	color: #1a1a2e;
+	font-family: 'Vollkorn', serif;
+	font-weight: 600;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #4ecdc4;
+}
+
+/* Horizontal rules */
+hr {
+	border: none;
+	border-top: 1px solid #e0e0e0;
+	margin: 1.5rem 0;
+}
+
+/* External link indicator */
+.webcontent a[target="_blank"]:after {
+	content: " ↗";
+	font-size: 0.8em;
 }
 
 /* mobile device */
@@ -422,11 +438,11 @@ ul li {
 /* --------------------------------------------------------------------------- CELLPHONE VIEW ----------------------------------------------------------*/
 /*https://www.websitedimensions.com/*/
 @media screen and (max-width: 768px){
-	
-	
+
+
 /* -------------------------     General   ------------------------*/
 .backgroundcolor {
-	 background-color: #f2f2f2
+	 background-color: #fafaf8
 }
 
 /* -------------------------  Menu   ------------------------*/
@@ -440,7 +456,8 @@ ul li {
 label {
 	display: block;
 	position: absolute;
-	right: 0;
+	right: 10px;
+	color: #f2f2f2;
 }
 
 #menu {
@@ -448,10 +465,10 @@ label {
 	top: 120px;
 	left: 0;
 	width: 100%;
-	background-color: #black;
-	opacity: 0.925;
+	background-color: #1a1a2e;
+	opacity: 0.97;
 	transform: translateX(-110%);
-	transition: all 0.3s;
+	transition: transform 0.3s ease;
 }
 
 #menu ul {
@@ -465,9 +482,10 @@ label {
 
 #menu .mylink a {
 	font-size: 0.9em;
+	padding: 12px 15px;
 }
 
-#menu ul li:hover + .dropdown-content, #menu .dropdown-content:hover   { 
+#menu ul li:hover + .dropdown-content, #menu .dropdown-content:hover   {
 	display: none;
 }
 
@@ -498,13 +516,12 @@ label {
 .webcontent {
 	margin: auto;
 	width: 100%;
-	padding: 00px;
-	background-color: #f2f2f2;
-	border-color: #d9d9d9;
-	box-shadow: 0px 0px 0px grey;
+	padding: 20px;
+	background-color: #fafaf8;
 	color: #262626;
 	font-family: 'Vollkorn', serif;
-	font-size: 1.13em
+	font-size: 1.05em;
+	line-height: 1.6;
 }
 .col-xs-12  {
     display: flex;
@@ -524,7 +541,7 @@ label {
 	.profile-text img {
 		margin-top: 10.5px; /* Add space above the image in mobile view */
 		margin-bottom: 0.5px; /* Add space below the image in mobile view */
-		max-width: 200px; /* Adjust image size as needed */
+		max-width: 180px; /* Slightly smaller on mobile */
 	}
 
        .page-header-online {
@@ -532,6 +549,16 @@ label {
 	font-family: 'Vollkorn', serif;
 	font-size: 1.2em
         }
+
+	/* Larger tap targets for mobile */
+	.webcontent a {
+		padding: 4px 0;
+		display: inline-block;
+	}
+
+	h2 {
+		font-size: 1.3em;
+	}
 }
 
 
