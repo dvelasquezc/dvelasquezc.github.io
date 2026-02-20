@@ -15,7 +15,8 @@
 	margin: auto;
 	width: 72%;
 	padding: 12px 5px;
-	border-bottom: 1px solid #e0e0e0;
+	background-color: #f0f0f0;
+	border-bottom: 2px solid #e0e0e0;
 }
 
 #menu {
@@ -279,6 +280,7 @@ ul li {
 	display: flex;
 	flex-direction: row; /* Align items in a row by default for desktop */
 	align-items: flex-start;
+	justify-content: space-between; /* Push logos to right */
 	gap: 30px; /* Space between the image and text content */
 }
 
@@ -325,12 +327,7 @@ ul li {
 }
 
 .institution-logo {
-	height: 18px !important;
-	max-height: 18px !important;
-	width: auto !important;
-	vertical-align: middle;
-	margin-right: 8px;
-	object-fit: contain;
+	display: none; /* Hidden - logos now in profile-logos container */
 }
 
 .profile-links {
@@ -345,6 +342,21 @@ ul li {
 	border-top: 1px solid #e0e0e0;
 	padding-top: 1em;
 	margin-top: 0.5em;
+}
+
+/* Profile logos - right side */
+.profile-logos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	flex-shrink: 0;
+}
+
+.profile-logos img {
+	height: 45px;
+	width: auto;
+	opacity: 0.85;
 }
 
 
@@ -663,6 +675,9 @@ label {
 		margin-top: 10.5px; /* Add space above the image in mobile view */
 		margin-bottom: 0.5px; /* Add space below the image in mobile view */
 		max-width: 180px; /* Slightly smaller on mobile */
+	}
+	.profile-logos {
+		display: none; /* Hide logos on mobile */
 	}
 
        .page-header-online {
