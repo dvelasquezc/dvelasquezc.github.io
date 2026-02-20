@@ -16,21 +16,22 @@ dropdown_folder: "no"
 <hr>
 
   
-<div class="img_profile col-xs-12">	
-	<div class="profile-text"> 
+<div class="img_profile col-xs-12">
+	<div class="profile-text">
 		<img src="/assets/images/profile4.jpg" alt="Daniel Velasquez-Cabrera">
-	</div> 
-	
+	</div>
+
 	<div class="profile-content">
-		<div class="profile-description">
-			<p><b>Welcome to my homepage!</b> I am an Assistant Professor of Economics at Claremont McKenna College. </p>
-		</div>
-		<div class="profile-description">
-			<p> I study economic development using historical evidence from developed economies and contemporary data from developing countries. My work focuses, though not exclusively, on geographic and coordination frictions, including how transport and market access shape outcomes.</p>
-		</div>		
+		<div class="profile-name">Daniel Velasquez-Cabrera</div>
+		<div class="profile-title">Assistant Professor of Economics</div>
+		<div class="profile-institution">Robert Day School of Economics · Claremont McKenna College</div>
 		<div class="profile-links">
-			<p><a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a>.   <a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b></a>.</p>
-			<b>Contact: danielvc [at] umich [dot] edu</b>		
+			<a href="mailto:dvelasquez@cmc.edu">dvelasquez@cmc.edu</a> ·
+			<a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a> ·
+			<a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao" target="_blank"><b>Google Scholar</b></a>
+		</div>
+		<div class="profile-bio">
+			<p>I study economic development using historical evidence from developed economies and contemporary data from developing countries. My work focuses, though not exclusively, on geographic and coordination frictions, including how transport and market access shape outcomes.</p>
 		</div>
 	</div>
 </div>
@@ -98,8 +99,8 @@ dropdown_folder: "no"
 						<div class = "pdf">
 							<a href="{{ "/assets/pdfs/JMP_online.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 						</div>
-						<div class = "conferences">
-							<i>&#42; Best Paper by a Junior Researcher, The International Transportation Economics Association, Evanston 2025</i>
+						<div class = "award">
+							<i>🏆 Best Paper by a Junior Researcher, The International Transportation Economics Association, Evanston 2025</i>
 						</div>							
 						{% endif %}		
 
@@ -112,8 +113,8 @@ dropdown_folder: "no"
 						<div class = "conferences">
 							<i>Submitted</i>
 						</div>				
-						<div class = "conferences">
-							<i>&#42; “Honorable Mention” for Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
+						<div class = "award">
+							<i>🏆 Honorable Mention, Best Student Paper Prize, Urban Economic Association, Milan 2023</i>
 						</div>			
 						{% endif %}
 						

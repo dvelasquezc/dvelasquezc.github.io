@@ -24,9 +24,10 @@
 						{% assign sorted_pages = site.pages | sort:"order" %}
 						{% for pp in sorted_pages %}
 						{% if pp.order > 0 %}
-						{% if pp.show == "yes" %}						
+						{% if pp.show == "yes" %}
+						{% unless forloop.first %}<li class="nav-separator">·</li>{% endunless %}
 						<li {% if pp.dropdown_folder != 'no' %} class="dropbtn mylink" {% endif %} class ="mylink">
-							<a href="{{ pp.url | prepend: site.baseurl | prepend: site.url }}" {% if page.url==pp.url %} class="active" {% elsif page.url contains pp.url %} class="active" {% endif %}> {{ pp.title }} {% if pp.dropdown_folder != 'no' %}<span class="icon-down-open"></span>{% endif %}</a>
+							<a href="{{ pp.url | prepend: site.baseurl | prepend: site.url }}" {% if page.url==pp.url %} class="active" {% elsif page.url contains pp.url %} class="active" {% endif %}>{{ pp.title }}{% if pp.dropdown_folder != 'no' %}<span class="icon-down-open"></span>{% endif %}</a>
 						</li>
 					
 							{% if pp.dropdown_folder != 'no' %} <!--drop down menu -->

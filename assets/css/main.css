@@ -14,13 +14,13 @@
 .webhead {
 	margin: auto;
 	width: 72%;
-	padding: 5px;
+	padding: 10px 5px;
 }
 
 #menu {
-    background-color: #1a1a2e;
+	background-color: transparent;
 	padding: 0px;
-    margin: 0;
+	margin: 0;
 	overflow: hidden;
 }
 
@@ -35,9 +35,11 @@ label {
 }
 
 #menu ul { /* Menu's first level */
-	background-color: #1a1a2e;
+	background-color: transparent;
 	list-style: none;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #menu ul ul{ /* Menu's second level */
@@ -53,53 +55,63 @@ label {
 
 
 #menu #name  { /*  Formating my name*/
-	margin: 0px 10px 0px -15px;
-	padding: 5px 70px 0px 5px;
+	margin: 0px;
+	padding: 5px 0px 8px 0px;
+	flex-grow: 1;
 }
 
 #menu .mylink  { /*  Formating other elements of the first level*/
-	padding: 8px 10px 3px 5px;
-	margin: 0px 20px 0px 0px;
+	padding: 8px 0px 3px 0px;
+	margin: 0px 0px 0px 0px;
+}
 
+/* Nav separator dots */
+#menu .nav-separator {
+	color: #999;
+	padding: 0 12px;
+	font-weight: normal;
 }
 
 #menu  a {
 	display: block;
-	color: #f2f2f2;
+	color: #1a1a2e;
 	text-decoration: none;
 	text-align: left;
-	font-weight: bold;
+	font-weight: normal;
 	font-family: 'Headland One', serif;
-	font-size: 1.20em;
+	font-size: 1.10em;
 	position: relative;
 	transition: color 0.2s ease;
 }
 
 #menu #name a {
-	display: block;
-	color: #f2f2f2;
+	display: inline-block;
+	color: #1a1a2e;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: 'Headland One', serif;
-	font-size: 1.30em;
+	font-size: 1.35em;
 	letter-spacing: 0.02em;
+	border-bottom: 3px solid #4ecdc4;
+	padding-bottom: 4px;
 }
 
 #menu .mylink a {
 	display: block;
-	color: #f2f2f2;
+	color: #1a1a2e;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 	font-family: 'Headland One', serif;
-	font-size: 1.20em;
+	font-size: 1.05em;
 }
 
 #menu #name a.active  {
-    color: #4ecdc4;
-	}
+	color: #1a1a2e;
+}
 
 #menu .mylink a.active  {
-    color: #4ecdc4;
+	color: #0d6e6e;
+	font-weight: 600;
 }
 
 #menu a span {
@@ -110,20 +122,20 @@ label {
 #menu ul li:hover + .dropdown-content, #menu .dropdown-content:hover   {
 	display:block;
 	position: absolute;
-	background-color: #2d2d44;
-    min-width: 100px;
-    z-index: 1;
+	background-color: #ffffff;
+	border: 1px solid #e0e0e0;
+	min-width: 100px;
+	z-index: 1;
 	text-align: left;
-	opacity: 0.95;
 	margin: 30px 0px 0px 500px;
 }
 
 
-/* animation underlining */
-#menu li a:before {
+/* animation underlining for nav links */
+#menu .mylink a:before {
 	content: "";
 	position: absolute;
-    margin: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	width: 100%;
 	height: 2px;
 	bottom: 0;
@@ -136,11 +148,14 @@ label {
 	transition: all 0.3s ease-in-out 0s;
 }
 
-
-#menu li a:hover:before {
+#menu .mylink a:hover:before {
 	visibility: visible;
-	-webkit-transform: scaleX(0.95);
-	transform: scaleX(0.95);
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+#menu .mylink a:hover {
+	color: #0d6e6e;
 }
 
 
@@ -198,7 +213,16 @@ table, th, td {
 }
 
 .conferences {
-	font-size: 0.80em
+	font-size: 0.85em;
+	color: #444;
+	margin-top: 4px;
+}
+
+/* Award styling */
+.award {
+	font-size: 0.85em;
+	color: #1a1a2e;
+	margin-top: 4px;
 }
 
 ol {
@@ -206,7 +230,7 @@ ol {
 }
 
 ol li {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 ol li::marker {
@@ -244,15 +268,53 @@ ul li {
 }
 
 .profile-text img {
-	max-width: 240px; /* Slightly smaller, cleaner */
+	max-width: 220px;
 	border-radius: 4px;
 }
 
 .profile-content {
 	display: flex;
 	flex-direction: column;
-	justify-content: center; /* Vertically center the content */
+	justify-content: flex-start;
 	font-size: 1em;
+}
+
+/* Profile name styling */
+.profile-name {
+	font-family: 'Vollkorn', serif;
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #1a1a2e;
+	margin-bottom: 0.3em;
+	border-bottom: 3px solid #4ecdc4;
+	display: inline-block;
+	padding-bottom: 4px;
+}
+
+.profile-title {
+	font-size: 1.05em;
+	color: #444;
+	margin-bottom: 0.2em;
+}
+
+.profile-institution {
+	font-size: 1em;
+	color: #666;
+	margin-bottom: 1em;
+}
+
+.profile-links {
+	margin-bottom: 1em;
+}
+
+.profile-links a {
+	margin-right: 8px;
+}
+
+.profile-bio {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 1em;
+	margin-top: 0.5em;
 }
 
 
@@ -383,8 +445,8 @@ ul li {
 }
 
 .socialbuttons ul li svg {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
 
 }
 
@@ -402,6 +464,15 @@ ul li {
 
 #footer {
 	padding: 20px 0;
+	border-top: 1px solid #e0e0e0;
+	margin-top: 2rem;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 0.85em;
+	color: #888;
+	margin-top: 10px;
 }
 
 /* Section headers */
@@ -428,6 +499,11 @@ hr {
 	font-size: 0.8em;
 }
 
+/* PDF link styling */
+.pdf {
+	margin-top: 4px;
+}
+
 /* mobile device */
 
 }
@@ -450,23 +526,26 @@ hr {
 .webhead {
 	margin: 0px;
 	width: 100%;
-	padding: 0px;
+	padding: 10px;
+	background-color: #fafaf8;
 }
 
 label {
 	display: block;
 	position: absolute;
-	right: 10px;
-	color: #f2f2f2;
+	right: 15px;
+	top: 15px;
+	color: #1a1a2e;
 }
 
 #menu {
 	position: absolute;
-	top: 120px;
+	top: 60px;
 	left: 0;
 	width: 100%;
-	background-color: #1a1a2e;
-	opacity: 0.97;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e0e0e0;
+	opacity: 0.98;
 	transform: translateX(-110%);
 	transition: transform 0.3s ease;
 }
@@ -475,14 +554,23 @@ label {
 	display: block;
 }
 
+#menu #name {
+	padding: 10px 15px;
+}
 
 #menu #name a {
-	font-size: 1.00em;
+	font-size: 1.1em;
+	border-bottom: 2px solid #4ecdc4;
 }
 
 #menu .mylink a {
-	font-size: 0.9em;
+	font-size: 1em;
 	padding: 12px 15px;
+	color: #1a1a2e;
+}
+
+#menu .nav-separator {
+	display: none;
 }
 
 #menu ul li:hover + .dropdown-content, #menu .dropdown-content:hover   {
@@ -502,13 +590,12 @@ label {
 
 /* animation underlining */
 #menu #name a:before {
-    margin: 0px 0px 0px -10px;
-	width: 100%;
+	display: none;
 }
 
 #menu .mylink a:before {
-    margin: 0px 0px 0px -10px;
-	width: 50%;
+    margin: 0px 0px 0px 0px;
+	width: 30%;
 }
 
 
@@ -530,6 +617,10 @@ label {
 
 #finalline {
 	display: block;
+}
+
+.profile-name {
+	font-size: 1.4em;
 }
 
 @media (max-width: 768px) {
@@ -559,9 +650,12 @@ label {
 	h2 {
 		font-size: 1.3em;
 	}
+
+	.profile-bio {
+		text-align: left;
+	}
 }
 
 
 }
-
 
