@@ -17,8 +17,14 @@ dropdown_folder: "no"
 
   
 <div class="img_profile col-xs-12">
-	<div class="profile-text">
-		<img src="/assets/images/profile4.jpg" alt="Daniel Velasquez-Cabrera">
+	<div class="profile-left">
+		<div class="profile-text">
+			<img src="/assets/images/profile4.jpg" alt="Daniel Velasquez-Cabrera">
+		</div>
+		<div class="profile-logos">
+			<img src="/assets/images/cmc-logo.png" alt="Claremont McKenna College">
+			<img src="/assets/images/umich-logo.png" alt="University of Michigan">
+		</div>
 	</div>
 
 	<div class="profile-content">
@@ -30,10 +36,6 @@ dropdown_folder: "no"
 			<a href="mailto:dvelasquez@cmc.edu">dvelasquez@cmc.edu</a> ·
 			<a href="{{ "/cv/" | prepend: site.baseurl | prepend: site.url }}"><b>CV</b></a> ·
 			<a href="https://scholar.google.com/citations?user=sUhPhVgAAAAJ&hl=en&oi=ao" target="_blank"><b>Google Scholar</b></a>
-		</div>
-		<div class="profile-logos">
-			<img src="/assets/images/cmc-logo.png" alt="Claremont McKenna College">
-			<img src="/assets/images/umich-logo.png" alt="University of Michigan">
 		</div>
 		<div class="profile-bio">
 			<p>I study economic development using historical evidence from developed economies and contemporary data from developing countries. My work focuses, though not exclusively, on geographic and coordination frictions, including how transport and market access shape outcomes.</p>
