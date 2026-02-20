@@ -22,7 +22,7 @@ html, body {
 
 .webhead {
 	margin: auto;
-	width: 72%;
+	width: 70%;
 	padding: 12px 5px;
 	background-color: #f0f0f0;
 	border-bottom: 2px solid #e0e0e0;
@@ -123,9 +123,7 @@ label {
 	font-weight: 600;
 	font-family: 'Headland One', serif;
 	font-size: 1.05em;
-	background-color: rgba(0,0,0,0.05);
 	padding: 6px 12px;
-	border-radius: 4px;
 }
 
 #menu #name a.active  {
@@ -135,7 +133,6 @@ label {
 #menu .mylink a.active  {
 	color: #0d6e6e;
 	font-weight: 600;
-	background-color: rgba(78,205,196,0.2);
 }
 
 #menu a span {
@@ -180,7 +177,6 @@ label {
 
 #menu .mylink a:hover {
 	color: #0d6e6e;
-	background-color: rgba(78,205,196,0.15);
 }
 
 
@@ -360,10 +356,11 @@ ul li {
 	align-items: center;
 	gap: 15px;
 	flex-shrink: 0;
+	margin-top: 2.5em;
 }
 
 .profile-logos img {
-	height: 32px;
+	height: 64px;
 	width: auto;
 	opacity: 0.85;
 }
