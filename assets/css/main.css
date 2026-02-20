@@ -1,3 +1,12 @@
+/* Global box-sizing fix for proper width calculations */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	overflow-x: hidden;
+	max-width: 100%;
+}
 
 /* --------------------------------------------------------------------------- DESKTOP VIEW ----------------------------------------------------------*/
 @media screen and (max-width: 9999px){
@@ -354,7 +363,7 @@ ul li {
 }
 
 .profile-logos img {
-	height: 45px;
+	height: 32px;
 	width: auto;
 	opacity: 0.85;
 }
@@ -569,7 +578,8 @@ hr {
 	margin: 0px;
 	width: 100%;
 	padding: 10px;
-	background-color: #fafaf8;
+	background-color: #f0f0f0;
+	border-bottom: 2px solid #e0e0e0;
 }
 
 label {
