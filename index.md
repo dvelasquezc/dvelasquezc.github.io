@@ -218,9 +218,9 @@ dropdown_folder: "no"
 					</i>
 				{% endif %}
 					
-				{% if paper.link != 'no' %}
+				{% if paper.journal_name %}
 				<div class = "pdf">
-					<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
+					<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[{{ paper.journal_citation }}]</a>{% else %}{{ paper.journal_citation }}{% endif %}
 				</div>
 				{% endif %}
 

@@ -3,6 +3,9 @@ title: "The Direct and Indirect Effects of Messages on Tax Compliance: Experimen
 coauthors: Juan Francisco Castro, Arlette Beltrán, Gustavo Yamada
 pubstatus: "Published"
 journal: "Journal of Economic Behavior & Organization 203 (2022): 483-518"
+journal_name: "Journal of Economic Behavior & Organization"
+journal_year: "2022"
+journal_citation: "203: 483-518"
 link: "https://dvelasquezc.github.io//assets/pdfs/taxes_rct_messages.pdf"
 presented: "no"
 pdf: "no"

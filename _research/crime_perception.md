@@ -3,6 +3,9 @@ title: "I Read the News Today, oh Boy: The Effect of Crime News Coverage on Crim
 coauthors: Santiago Medina, Gustavo Yamada, Pablo Lavado, Miguel Núñez, Hugo Alatrista, Juandiego Morzán
 pubstatus: "Published"
 journal: "World Development 136 (2020): 105111"
+journal_name: "World Development"
+journal_year: "2020"
+journal_citation: "136: 105111"
 link: "https://www.sciencedirect.com/science/article/pii/S0305750X20302382?dgcid=coauthor"
 presented: "no"
 pdf: "no"
