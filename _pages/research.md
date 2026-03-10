@@ -112,15 +112,7 @@ show: "yes"
 			{% endif %}			
 			
 			
-			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation' %}	
-			<div class = "pdf">
-				<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
-			</div>			
-			<div class = "conferences">
-				<i> Accepted at the <b>Journal of International Economics</b></i>
-			</div>			
-			{% endif %}		
-
+	
 
 			{% if paper.title == 'Initial Conditions and the Big Push' %}
 			<div class = "pdf">
@@ -204,14 +196,7 @@ show: "yes"
 				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
 			</div>
 			{% endif %}
-					
-			
-			{% if  paper.funding  != 'no' %}
-			<div class ="conferences">
-				<i>Project financed by grant from {{ paper.funding }}</i>
-			</div>
-			{% endif %}
-						
+
 			{% if  paper.presented  != 'no' %}
 			<div class ="conferences">
 				<i>Presented in: {{ paper.presented }}</i>

@@ -8,7 +8,7 @@ presented: "no"
 pdf: "no"
 abstract: 'Whereas the use of computers can increase productivity, it may also promote greater equality. We exploit two natural field experiments related to the renewal of national identification cards in Bolivia and show that applicants randomly assigned to a computer renewal process not only are more likely to successfully complete it, but they do it faster than when assigned to a manual process. We also show that the introduction of digital technologies substantially removed heterogeneity in the delivery of the public service, especially for individuals of less favored characteristics. Information technologies may help curb petty corruption by reducing discretion.'
 funding: "no"
-order_paper: 3
+order_paper: 4
 layout: page
 ---
 <a href="{{ "/assets/pdfs/digital_police.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Published at Economic Development and Cultural Change 71.1 (2022): 63-109.] </a>
@@ -18,4 +18,12 @@ layout: page
 {% endif %}
 
 <div class ="text"><p><b>Abstract</b>: {{ page.abstract }} </p></div>
+
+{% if page.funding != 'no' %}
+<p><b>Funding</b>: {{ page.funding }} </p>
+{% endif %}
+
+{% if page.awards %}
+<p><b>Awards</b>: {{ page.awards }} </p>
+{% endif %}
 

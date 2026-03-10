@@ -19,3 +19,11 @@ layout: page
 {% endif %}
 
 <div class ="text"><p><b>Abstract</b>: {{ page.abstract }} </p></div>
+
+{% if page.funding != 'no' %}
+<p><b>Funding</b>: {{ page.funding }} </p>
+{% endif %}
+
+{% if page.awards %}
+<p><b>Awards</b>: {{ page.awards }} </p>
+{% endif %}

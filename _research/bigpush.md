@@ -8,7 +8,7 @@ presented: "17th North American Meeting of the Urban Economics Association, HKU 
 pdf: "no"
 abstract: 'This paper examines the long-run impact of temporary WWII spending on U.S. economic geography. Our empirical results show positive long-term effects on overall population and manufacturing activity only in counties with initially low manufacturing employment. Motivated by these findings, we develop a multisector economic geography model that features external economies of scale in manufacturing with non-constant elasticity. We calibrate the model and show that an S-shaped scale function in which sizable scale economies are limited to locations below 1500 manufacturing workers matches the data well. We use the calibrated model to reevaluate how temporary WWII spending shaped the evolution of U.S. postwar economic geography. Despite the presence of "big push" dynamics and multiple steady states, the aggregate effects of WWII spending on long-run outcomes are limited due to the restricted domain over which coordination failures operate.'
 funding: "no"
-order_paper: 5
+order_paper: 4
 layout: page
 ---
 
@@ -24,3 +24,11 @@ layout: page
 {% endif %}
 
 <div class ="text"><p><b>Abstract</b>: {{ page.abstract }} </p></div>
+
+{% if page.funding != 'no' %}
+<p><b>Funding</b>: {{ page.funding }} </p>
+{% endif %}
+
+{% if page.awards %}
+<p><b>Awards</b>: {{ page.awards }} </p>
+{% endif %}
