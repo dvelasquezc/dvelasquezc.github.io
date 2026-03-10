@@ -117,13 +117,18 @@ show: "yes"
 			{% if paper.title == 'Initial Conditions and the Big Push' %}
 			<div class = "pdf">
 				<a href="{{ "/assets/pdfs/bigpush_wwii.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a> <a href="{{ "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5408984" }}" target="_blank"> [SSRN] </a>
-			</div>					
+			</div>
 			<div class = "conferences">
 				<i>Submitted</i>
-			</div>								
-			{% endif %}									
-			
-			
+			</div>
+			{% endif %}
+
+			{% if paper.title == 'Spatial Dutch Disease and the Financial Propagation of Commodity Booms' %}
+			<div class = "conferences">
+				<i>Working paper coming soon</i>
+			</div>
+			{% endif %}
+
 			{% if  paper.funding  != 'no' %}
 			<div class ="conferences">
 				<i>&#42; Project financed by grant from {{ paper.funding }}</i>
@@ -197,11 +202,15 @@ show: "yes"
 			</div>
 			{% endif %}
 
-			{% if  paper.presented  != 'no' %}
-			<div class ="conferences">
-				<i>Presented in: {{ paper.presented }}</i>
+			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation' %}
+			<div class = "pdf">
+				<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 			</div>
-			{% endif %}		</li>				
+			<div class ="conferences">
+				<i>Accepted at the <b>Journal of International Economics</b></i>
+			</div>
+			{% endif %}
+			</li>				
 					
 	{% endif %}	
 	{% endfor %}
