@@ -57,7 +57,7 @@ dropdown_folder: "no"
 			{% if paper.pubstatus == "mimeo" %}
 					<li><b><a href ="{{ paper.url }}">{{ paper.title }}</a></b>
 						{% if paper.coauthors %}
-							<i> (with
+							<span class="conferences"><i> (with
 							{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
 							{% assign last = coauthors | last %}
 							{% assign first = coauthors | first %}
@@ -91,7 +91,7 @@ dropdown_folder: "no"
 									{% endif %}
 								{% endif %}
 							{% endfor %})
-							</i>
+							</i></span>
 						{% endif %}
 						
 						
@@ -181,7 +181,7 @@ dropdown_folder: "no"
 			
 			<li><b><a href ="{{ paper.url }}">{{ paper.title }}</a></b>
 				{% if paper.coauthors %}
-					<i>With
+					<span class="conferences"><i>With
 					{% assign coauthors = paper.coauthors | join: ',' | strip | split: ', ' %}
 					{% assign last = coauthors | last %}
 					{% assign first = coauthors | first %}
@@ -215,9 +215,9 @@ dropdown_folder: "no"
 							{% endif %}
 						{% endif %}
 					{% endfor %}
-					</i>
+					</i></span>
 				{% endif %}
-					
+
 				{% if paper.journal_name %}
 				<div class = "conferences">
 					<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[{{ paper.journal_citation }}]</a>{% else %}{{ paper.journal_citation }}{% endif %}
