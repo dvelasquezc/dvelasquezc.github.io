@@ -196,9 +196,9 @@ show: "yes"
 				</i>
 			{% endif %}
 				
-			{% if paper.link != 'no' %}
-			<div class = "pdf">
-				<u><a href="{{ paper.link }}" target="_blank"> [{{ paper.journal }}] </a></u>
+			{% if paper.journal_name %}
+			<div class = "conferences">
+				<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[{{ paper.journal_citation }}]</a>{% else %}{{ paper.journal_citation }}{% endif %}
 			</div>
 			{% endif %}
 
