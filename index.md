@@ -220,7 +220,7 @@ dropdown_folder: "no"
 
 				{% if paper.journal_name %}
 				<div class = "conferences">
-					<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[{{ paper.journal_citation }}]</a>{% else %}{{ paper.journal_citation }}{% endif %}
+					<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[Published version]</a>{% endif %}{% if paper.draft_link and paper.draft_link != 'no' %} | <a href="{{ paper.draft_link | prepend: site.baseurl | prepend: site.url }}" target="_blank">[Working paper]</a>{% endif %}{% if paper.ssrn and paper.ssrn != 'no' %} | <a href="{{ paper.ssrn }}" target="_blank">[SSRN]</a>{% endif %}
 				</div>
 				{% endif %}
 

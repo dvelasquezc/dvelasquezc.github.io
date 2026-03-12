@@ -7,6 +7,8 @@ journal_name: "Economic Development and Cultural Change"
 journal_year: "2022"
 journal_citation: "71.1: 63-109"
 link: "https://www.journals.uchicago.edu/doi/10.1086/714066"
+draft_link: "/assets/pdfs/digital_police.pdf"
+ssrn: "no"
 presented: "no"
 pdf: "no"
 abstract: 'Whereas the use of computers can increase productivity, it may also promote greater equality. We exploit two natural field experiments related to the renewal of national identification cards in Bolivia and show that applicants randomly assigned to a computer renewal process not only are more likely to successfully complete it, but they do it faster than when assigned to a manual process. We also show that the introduction of digital technologies substantially removed heterogeneity in the delivery of the public service, especially for individuals of less favored characteristics. Information technologies may help curb petty corruption by reducing discretion.'
