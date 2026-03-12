@@ -198,16 +198,13 @@ show: "yes"
 
 			{% if paper.journal_name %}
 			<div class = "conferences">
-				<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[Published version]</a>{% endif %}{% if paper.draft_link and paper.draft_link != 'no' %} | <a href="{{ paper.draft_link | prepend: site.baseurl | prepend: site.url }}" target="_blank">[Working paper]</a>{% endif %}{% if paper.ssrn and paper.ssrn != 'no' %} | <a href="{{ paper.ssrn }}" target="_blank">[SSRN]</a>{% endif %}
+				<b>{{ paper.journal_name }}</b>, {{ paper.journal_year }}. &nbsp; {% if paper.link != 'no' %}<a href="{{ paper.link }}" target="_blank">[Published version]</a>{% endif %}{% if paper.draft_link and paper.draft_link != 'no' %} &nbsp;|&nbsp; <a href="{{ paper.draft_link | prepend: site.baseurl | prepend: site.url }}" target="_blank">[Working paper]</a>{% endif %}{% if paper.ssrn and paper.ssrn != 'no' %} &nbsp;|&nbsp; <a href="{{ paper.ssrn }}" target="_blank">[SSRN]</a>{% endif %}
 			</div>
 			{% endif %}
 
 			{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation' %}
-			<div class = "pdf">
-				<a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
-			</div>
 			<div class ="conferences">
-				<i>Accepted at the <b>Journal of International Economics</b></i>
+				<i>Accepted at the <b>Journal of International Economics</b></i> &nbsp; <a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank">[Working paper]</a>
 			</div>
 			{% endif %}
 			</li>				
