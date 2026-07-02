@@ -94,7 +94,7 @@ show: "yes"
 			
 			{% if paper.title == 'Transit Infrastructure, Couples&apos; Commuting Choices, and Gender Earnings Inequality' %}
 			<div class = "pdf">
-				<a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
+				<a href="{{ "/assets/pdfs/lima_couples_urban.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a> <span style="color:red;"><b>New version!</b></span>
 			</div>
 			<div class = "conferences">
 				<i>Submitted</i>
