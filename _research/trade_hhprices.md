@@ -2,8 +2,13 @@
 title: 'Trade in Appliances, Household Production, and Labor Force Participation'
 coauthors: Pamela Medina, Sebastian Sotelo
 pubstatus: "Published"
-journal: "Accepted at Journal of International Economics"
-link: "no"
+journal: "Journal of International Economics 161 (2026): 104241"
+journal_name: "Journal of International Economics"
+journal_year: "2026"
+journal_citation: "161: 104241"
+link: "https://www.sciencedirect.com/science/article/pii/S0022199626000310"
+draft_link: "/assets/pdfs/MSV_THL_jan25.pdf"
+ssrn: "no"
 presented: "WB and JIE&#39;s Trade and Uneven Development Conference, 2023 Seminario de Microeconomia Aplicada (MAP), 2022 Annual Meeting of the LACEA-LAMES"
 pdf: "no"
 abstract: 'We examine the effect of international trade on labor force participation, with afocus on how trade influences labor supply—particularly for women—through reductions in the prices of household appliances that substitute for domestic labor. Using a comprehensive data set from 1981 to 2017, which includes four population censuses, household surveys, and customs records from Peru, and employing an instrumental variable (IV) strategy, we demonstrate that labor force participation rises as appliance import prices fall. This effect is especially pronounced among married and younger women. To further explore these dynamics, we develop and estimate a dynamic general equilibrium model of trade and household production, evaluating the equilibrium effects of declining appliance prices. We find that the reduction in appliance prices during the sample period leads to an increase in female labor force participation by 2 percentage points, explaining one-tenth of the total rise in female labor participation in Peru over the past 30 years. However, the gender wage gap widens by approximately 1.5 percentage points in response to these changes.'
@@ -11,7 +16,7 @@ funding: ' Gender and the Economy Initiative, and STEG Research Grant '
 order_paper: 1
 layout: page
 ---
-<i> <b>[{{ page.journal }}]</b> </i>
+<a href="{{ page.link }}" target="_blank"> [{{ page.pubstatus }} at {{ page.journal }}] </a>
 
 <a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank"> [Draft here] </a>
 

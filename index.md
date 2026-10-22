@@ -224,11 +224,6 @@ dropdown_folder: "no"
 				</div>
 				{% endif %}
 
-				{% if paper.title == 'Trade in Appliances, Household Production, and Labor Force Participation' %}
-				<div class ="conferences">
-					<i>Accepted at the <b>Journal of International Economics</b></i> &nbsp; <a href="{{ "/assets/pdfs/MSV_THL_jan25.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank">[Working paper]</a>
-				</div>
-				{% endif %}
 			</li>				
 					
 	{% endif %}	
